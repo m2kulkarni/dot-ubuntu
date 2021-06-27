@@ -1,0 +1,20 @@
+{
+  "segments": [
+    "virtual_env",
+    "username",
+    "ssh",
+    "cwd",
+    "git",
+    "hg",
+    "root"
+  ],
+  "cwd": {
+      "max_depth" : 2 
+  },
+  "battery": {
+      "always_show_percentage" : true,
+      "low_threshold" : 25
+  },
+  "theme" : "~/.config/powerline-shell/themes/default.py"
+  
+}
