@@ -1,0 +1,62 @@
+alias python=python3
+alias vi="nvim"
+alias brc="vi ~/.bashrc"
+alias i3con="vi ~/.config/i3/config"
+alias vrc="vi ~/.config/nvim/init.lua"
+alias vcs="vi ~/.config/nvim/lua/themes/onedark.lua"
+alias sbrc="source ~/.bashrc"
+alias ala="vi ~/.config/alacritty/alacritty.yml"
+alias config="cd ~/.config"
+alias ncon="cd ~/.config/nvim/"
+alias ....="cd ../.."
+alias ..="cd .."
+alias down="cd ~/Downloads"
+alias desk="cd ~/Desktop"
+alias anal="cd ~/mohit\ stuff/learning/analysis"
+
+alias vpn="sudo bash ~/scripts/vpn.sh"
+alias spicetify=/home/mohit/spicetify-cli/spicetify
+
+alias sai="sudo apt-get install"
+alias saud="sudo apt-get update"
+alias saug="sudo apt-get upgrade"
+alias sarp="sudo apt-get remove --purge"
+alias spi3="sudo -H pip3 install"
+alias spu3="sudo -H pip3 uninstall"
+
+alias search="sudo grep --color -rnw ./ -e "
+alias look="sudo find . -name"
+
+alias l='ls -l'
+alias la='ls -a'
+alias lla='ls -la'
+alias lt='du -h --max-depth=1 | sort -hr'
+
+alias sshi='ssh -XY mmk221@login.hpc.ic.ac.uk'
+alias remoteserv='sshfs -o idmap=user mmk221@login.hpc.ic.ac.uk:/rds/general/user/mmk221/home ~/remoteserv'
+
+alias cdea="conda deactivate"
+alias cac="conda activate"
+alias gsoc="conda activate gsocenv"
+alias algo="conda activate algonauts && cd ~/mohit\ stuff/algonauts"
+alias snufa="conda activate snufa && cd ~/mohit\ stuff/snufa/src/snufa-challenge-private"
+alias libri="conda activate snufa && cd ~/mohit\ stuff/snufa/librespeech"
+
+alias gacp="bash ~/scripts/gitacp.sh"
+
+alias gh='history|grep'
+alias tcn='mv --force -t ~/.local/share/Trash '
+alias startgit='cd `git rev-parse --show-toplevel` && git checkout master && git pull'
+
+alias rslibreimp='rsync -avP /home/mohit/mohit\ stuff/snufa/librespeech/ mmk221@login.hpc.ic.ac.uk:/rds/general/user/mmk221/home/librispeech/'
+
+function cl() {
+    DIR="$*";
+        # if no DIR given, go home
+        if [ $# -lt 1 ]; then
+                DIR=$HOME;
+    fi;
+    builtin cd "${DIR}" && \
+    # use your preferred ls command
+        ls -F --color=auto
+}

@@ -1,0 +1,1 @@
+/home/mohit/.dotfiles/scripts2/text-scratchpad.sh

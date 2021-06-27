@@ -1,0 +1,1 @@
+/home/mohit/.dotfiles/scripts2/alsascript.sh
