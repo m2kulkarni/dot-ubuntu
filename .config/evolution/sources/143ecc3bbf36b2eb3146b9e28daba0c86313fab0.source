@@ -1,0 +1,29 @@
+[Data Source]
+DisplayName=kulkarnimohit01@gmail.com
+Enabled=true
+Parent=ff8b498c5237afd19c4495d949912b323e35ee09
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=c86b4b8c20789c39f3a9d9e2bbca9e1e9e629f47
+RepliesToOriginFolder=false
+UseSentFolder=true
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://local/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=
+StartBottom=inconsistent
+TopSignature=inconsistent
+Language=
+
+[Mail Identity]
+Address=kulkarnimohit01@gmail.com
+Aliases=
+Name=
+Organization=
+ReplyTo=
+SignatureUid=none

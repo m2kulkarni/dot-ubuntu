@@ -1,0 +1,60 @@
+[05/28/20, 11:20:03:831] info: 
+╔════════════════════════════════════════════════════════════════════════════════╗
+║      Slack 4.4.3, linux 5.4.0-33-generic on x64 at 05/28/20, 11:20:03:830      ║
+╚════════════════════════════════════════════════════════════════════════════════╝ 
+[05/28/20, 11:20:03:832] info: Configured logger via 
+{
+  "identifierOverride": "webapp-auth-console",
+  "logLevel": "info",
+  "numberOfInstances": 3
+}
+[05/28/20, 11:20:03:833] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.4.3",
+  "PACKAGE_MANIFEST.commit": "b4c6ab2",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[05/28/20, 11:21:48:438] info: 
+╔════════════════════════════════════════════════════════════════════════════════╗
+║      Slack 4.4.3, linux 5.4.0-33-generic on x64 at 05/28/20, 11:21:48:437      ║
+╚════════════════════════════════════════════════════════════════════════════════╝ 
+[05/28/20, 11:21:48:439] info: Configured logger via 
+{
+  "identifierOverride": "webapp-auth-console",
+  "logLevel": "info",
+  "numberOfInstances": 4
+}
+[05/28/20, 11:21:48:441] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.4.3",
+  "PACKAGE_MANIFEST.commit": "b4c6ab2",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[05/28/20, 11:22:27:951] info: 
+╔════════════════════════════════════════════════════════════════════════════════╗
+║      Slack 4.4.3, linux 5.4.0-33-generic on x64 at 05/28/20, 11:22:27:951      ║
+╚════════════════════════════════════════════════════════════════════════════════╝ 
+[05/28/20, 11:22:27:951] info: Configured logger via 
+{
+  "identifierOverride": "webapp-auth-console",
+  "logLevel": "info",
+  "numberOfInstances": 5
+}
+[05/28/20, 11:22:27:952] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.4.3",
+  "PACKAGE_MANIFEST.commit": "b4c6ab2",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}

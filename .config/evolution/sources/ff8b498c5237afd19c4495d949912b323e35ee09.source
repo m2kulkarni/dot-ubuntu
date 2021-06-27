@@ -1,0 +1,31 @@
+[Data Source]
+DisplayName=kulkarnimohit01@gmail.com
+Enabled=true
+Parent=
+
+[Authentication]
+Host=
+Method=none
+Port=0
+ProxyUid=system-proxy
+RememberPassword=true
+User=
+CredentialName=
+IsExternal=true
+
+[Collection]
+BackendName=outlook
+CalendarEnabled=true
+ContactsEnabled=true
+Identity=755c40a5cde93f8b
+MailEnabled=true
+AllowSourcesRename=false
+CalendarUrl=
+ContactsUrl=
+
+[GNOME Online Accounts]
+AccountId=account_1590529638_1
+CalendarUrl=
+ContactsUrl=
+Name=
+Address=kulkarnimohit01@gmail.com

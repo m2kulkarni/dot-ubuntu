@@ -1,0 +1,2222 @@
+[05/27/20, 06:19:09:216] info: 
+╔════════════════════════════════════════════════════════════════════════════════╗
+║      Slack 4.4.3, linux 5.4.0-31-generic on x64 at 05/27/20, 06:19:09:215      ║
+╚════════════════════════════════════════════════════════════════════════════════╝ 
+[05/27/20, 06:19:09:217] info: Configured logger via 
+{
+  "identifierOverride": "webapp-console",
+  "logLevel": "info",
+  "numberOfInstances": 2
+}
+[05/27/20, 06:19:09:218] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.4.3",
+  "PACKAGE_MANIFEST.commit": "b4c6ab2",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[05/27/20, 06:19:09:219] info: toggleAutoSpellcheck:: desktop interface is not available 
+[05/27/20, 06:19:09:219] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[05/27/20, 06:19:09:219] info: Creating desktop interface object 
+[05/27/20, 06:19:09:220] info: Exposing context bridge 
+[05/27/20, 06:19:09:220] info: Main window preload script finished {
+  "readyTime": 118.721068
+} 
+[05/27/20, 06:19:09:220] info: create: creating new instance of cld3 {
+  "minBufferLength": 140,
+  "maxBufferLength": 1000
+} 
+[05/27/20, 06:19:09:220] info: cld3::loadModule: loading cld3 wasm binary {
+  "initOptions": {}
+} 
+[05/27/20, 06:19:09:221] info: cld3Loader::loadModule: constructed module object for runtime 
+[05/27/20, 06:19:09:221] info: cld3Loader::initializeRuntime: successfully initialized module 
+[05/27/20, 06:19:09:221] info: cld3Loader::loadModule: initialized wasm binary Runtime 
+[05/27/20, 06:19:09:221] info: cld3::cldLoader: cld3 wasm initialized with default values {
+  "unknownIdentifier": "und",
+  "minBytesDefault": 140,
+  "maxBytesDefault": 700,
+  "maxBytesInput": 10000,
+  "languageResultStructSize": 24
+} 
+[05/27/20, 06:19:09:222] info: JQMIGRATE: Migrate is installed with logging active, version 3.0.0 
+[05/27/20, 06:19:09:222] info: Network status check {
+  "elapsed_time_ms": 427,
+  "navigator_online": true,
+  "api_test": "online"
+} 
+[05/27/20, 06:19:09:222] info: Store: SET_NETWORK_STATUS online 
+[05/27/20, 06:19:09:222] warn: error getActiveModelOb found no ob 
+[05/27/20, 06:19:09:223] warn: TS.boot_data.channel_id: undefined 
+[05/27/20, 06:19:09:223] warn: TS.boot_data.im_id: undefined 
+[05/27/20, 06:19:09:223] warn: TS.boot_data.group_id: undefined 
+[05/27/20, 06:19:09:223] warn: error getActiveModelOb found no ob 
+[05/27/20, 06:19:09:224] warn: TS.boot_data.channel_id: undefined 
+[05/27/20, 06:19:09:224] warn: TS.boot_data.im_id: undefined 
+[05/27/20, 06:19:09:224] warn: TS.boot_data.group_id: undefined 
+[05/27/20, 06:19:09:224] info: [BOOT] booted! pri:0 version:1590533867 start_ms:1590540546559 (1685ms ago) 
+[05/27/20, 06:19:09:224] info: [DESKTOP-MIDDLEWARE] (T00000000) Forwarding redux payload to desktop ["theme","notificationPrefs","featureFlags","bootConfig","unreads","locale"] 
+[05/27/20, 06:19:09:225] info: Exposing workspace desktop delegate for  T00000000 
+[05/27/20, 06:19:09:225] info: Setting global desktop delegate 
+[05/27/20, 06:19:09:225] warn: (T00000000) Clogger context could not be determined, using empty context 
+[05/27/20, 06:19:09:225] info: Store: UPDATE_SETTINGS {
+  "userTheme": "light"
+} 
+[05/27/20, 06:19:09:226] info: [DESKTOP-MIDDLEWARE] (T00000000) Forwarding redux payload to desktop ["featureFlags","version"] 
+[05/27/20, 06:19:09:226] info: Store: UPDATE_SETTINGS {
+  "systemThemeSyncEnabled": false
+} 
+[05/27/20, 06:19:09:226] info: Store: REDUX_UPDATE_FROM_WEBAPP (T00000000) Changed keys [theme,notificationPrefs,featureFlags,bootConfig,unreads,locale] 
+[05/27/20, 06:19:09:240] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[05/27/20, 06:19:09:240] info: [INFO] no TS.client on page:https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient 
+[05/27/20, 06:19:09:240] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "loaded"
+} 
+[05/27/20, 06:19:09:241] info: Store: MAIN_WINDOW_SHOWN  
+[05/27/20, 06:19:09:241] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 768,
+      "width": 1024,
+      "x": 484,
+      "y": 170
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[05/27/20, 06:19:09:241] info: Store: CLEAR_NOTIFICATIONS  
+[05/27/20, 06:19:09:242] info: Store: REDUX_UPDATE_FROM_WEBAPP (T00000000) Changed keys [featureFlags,version] 
+[05/27/20, 06:19:09:243] info: Store: UPSERT_WEB_CONTENTS {
+  "history": "[REDACTED]",
+  "id": 1,
+  "type": "app"
+} 
+[05/27/20, 06:19:10:201] info: [INFO] running without a user 
+[05/27/20, 06:19:10:256] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 768,
+      "width": 1024,
+      "x": 484,
+      "y": 207
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[05/27/20, 06:19:12:110] info: Store: QUIT_APP  
+[05/27/20, 06:19:12:110] info: [FOCUS-EVENT] Window blurred 
+[05/27/20, 06:19:12:118] info: [WINDOW-UNLOADING] (T00000000) workspace handling window unloading event 
+[05/27/20, 06:20:15:695] info: 
+╔════════════════════════════════════════════════════════════════════════════════╗
+║      Slack 4.4.3, linux 5.4.0-31-generic on x64 at 05/27/20, 06:20:15:695      ║
+╚════════════════════════════════════════════════════════════════════════════════╝ 
+[05/27/20, 06:20:15:695] info: Configured logger via 
+{
+  "identifierOverride": "webapp-console",
+  "logLevel": "info",
+  "numberOfInstances": 2
+}
+[05/27/20, 06:20:15:696] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.4.3",
+  "PACKAGE_MANIFEST.commit": "b4c6ab2",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[05/27/20, 06:20:15:696] info: toggleAutoSpellcheck:: desktop interface is not available 
+[05/27/20, 06:20:15:696] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[05/27/20, 06:20:15:696] info: Creating desktop interface object 
+[05/27/20, 06:20:15:696] info: Exposing context bridge 
+[05/27/20, 06:20:15:696] info: Main window preload script finished {
+  "readyTime": 30.481541
+} 
+[05/27/20, 06:20:15:696] info: JQMIGRATE: Migrate is installed with logging active, version 3.0.0 
+[05/27/20, 06:20:15:696] info: Store: UPDATE_SETTINGS {
+  "userTheme": "light"
+} 
+[05/27/20, 06:20:15:696] info: Store: UPDATE_SETTINGS {
+  "systemThemeSyncEnabled": false
+} 
+[05/27/20, 06:20:15:696] warn: error getActiveModelOb found no ob 
+[05/27/20, 06:20:15:697] warn: TS.boot_data.channel_id: undefined 
+[05/27/20, 06:20:15:697] warn: TS.boot_data.im_id: undefined 
+[05/27/20, 06:20:15:697] warn: TS.boot_data.group_id: undefined 
+[05/27/20, 06:20:15:697] warn: error getActiveModelOb found no ob 
+[05/27/20, 06:20:15:697] warn: TS.boot_data.channel_id: undefined 
+[05/27/20, 06:20:15:697] warn: TS.boot_data.im_id: undefined 
+[05/27/20, 06:20:15:697] warn: TS.boot_data.group_id: undefined 
+[05/27/20, 06:20:15:697] info: [BOOT] booted! pri:0 version:1590533867 start_ms:1590540613349 (944ms ago) 
+[05/27/20, 06:20:15:697] info: [DESKTOP-MIDDLEWARE] (T00000000) Forwarding redux payload to desktop ["theme","notificationPrefs","featureFlags","bootConfig","unreads","locale"] 
+[05/27/20, 06:20:15:697] info: Exposing workspace desktop delegate for  T00000000 
+[05/27/20, 06:20:15:697] info: Setting global desktop delegate 
+[05/27/20, 06:20:15:697] warn: (T00000000) Clogger context could not be determined, using empty context 
+[05/27/20, 06:20:15:697] info: Store: REDUX_UPDATE_FROM_WEBAPP (T00000000) Changed keys [theme,notificationPrefs,featureFlags,bootConfig,unreads,locale] 
+[05/27/20, 06:20:15:698] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[05/27/20, 06:20:15:698] info: [INFO] no TS.client on page:https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient 
+[05/27/20, 06:20:15:698] info: [DESKTOP-MIDDLEWARE] (T00000000) Forwarding redux payload to desktop ["featureFlags","version"] 
+[05/27/20, 06:20:15:698] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "loaded"
+} 
+[05/27/20, 06:20:15:705] info: Store: MAIN_WINDOW_SHOWN  
+[05/27/20, 06:20:15:708] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 768,
+      "width": 1024,
+      "x": 484,
+      "y": 207
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[05/27/20, 06:20:15:709] info: Store: CLEAR_NOTIFICATIONS  
+[05/27/20, 06:20:15:711] info: create: creating new instance of cld3 {
+  "minBufferLength": 140,
+  "maxBufferLength": 1000
+} 
+[05/27/20, 06:20:15:712] info: cld3::loadModule: loading cld3 wasm binary {
+  "initOptions": {}
+} 
+[05/27/20, 06:20:15:713] info: cld3Loader::loadModule: constructed module object for runtime 
+[05/27/20, 06:20:15:718] info: Store: REDUX_UPDATE_FROM_WEBAPP (T00000000) Changed keys [featureFlags,version] 
+[05/27/20, 06:20:15:719] info: Store: UPSERT_WEB_CONTENTS {
+  "history": "[REDACTED]",
+  "id": 1,
+  "type": "app"
+} 
+[05/27/20, 06:20:15:792] info: [INFO] running without a user 
+[05/27/20, 06:20:15:797] info: cld3Loader::initializeRuntime: successfully initialized module 
+[05/27/20, 06:20:15:797] info: cld3Loader::loadModule: initialized wasm binary Runtime 
+[05/27/20, 06:20:15:802] info: cld3::cldLoader: cld3 wasm initialized with default values {
+  "unknownIdentifier": "und",
+  "minBytesDefault": 140,
+  "maxBytesDefault": 700,
+  "maxBytesInput": 10000,
+  "languageResultStructSize": 24
+} 
+[05/27/20, 06:20:16:146] info: Network status check {
+  "elapsed_time_ms": 544,
+  "navigator_online": true,
+  "api_test": "online"
+} 
+[05/27/20, 06:20:16:149] info: Store: SET_NETWORK_STATUS online 
+[05/27/20, 06:20:16:757] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 768,
+      "width": 1024,
+      "x": 484,
+      "y": 244
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[05/27/20, 06:20:18:751] info: Store: QUIT_APP  
+[05/27/20, 06:20:18:751] info: [FOCUS-EVENT] Window blurred 
+[05/27/20, 06:20:18:758] info: [WINDOW-UNLOADING] (T00000000) workspace handling window unloading event 
+[05/28/20, 09:45:42:226] info: 
+╔════════════════════════════════════════════════════════════════════════════════╗
+║      Slack 4.4.3, linux 5.4.0-33-generic on x64 at 05/28/20, 09:45:42:225      ║
+╚════════════════════════════════════════════════════════════════════════════════╝ 
+[05/28/20, 09:45:42:228] info: Configured logger via 
+{
+  "identifierOverride": "webapp-console",
+  "logLevel": "info",
+  "numberOfInstances": 2
+}
+[05/28/20, 09:45:42:229] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.4.3",
+  "PACKAGE_MANIFEST.commit": "b4c6ab2",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[05/28/20, 09:45:42:230] info: toggleAutoSpellcheck:: desktop interface is not available 
+[05/28/20, 09:45:42:231] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[05/28/20, 09:45:42:232] info: Creating desktop interface object 
+[05/28/20, 09:45:42:232] info: Exposing context bridge 
+[05/28/20, 09:45:42:233] info: Main window preload script finished {
+  "readyTime": 150.445023
+} 
+[05/28/20, 09:45:42:233] info: create: creating new instance of cld3 {
+  "minBufferLength": 140,
+  "maxBufferLength": 1000
+} 
+[05/28/20, 09:45:42:234] info: cld3::loadModule: loading cld3 wasm binary {
+  "initOptions": {}
+} 
+[05/28/20, 09:45:42:234] info: cld3Loader::loadModule: constructed module object for runtime 
+[05/28/20, 09:45:42:234] info: cld3Loader::initializeRuntime: successfully initialized module 
+[05/28/20, 09:45:42:235] info: cld3Loader::loadModule: initialized wasm binary Runtime 
+[05/28/20, 09:45:42:235] info: cld3::cldLoader: cld3 wasm initialized with default values {
+  "unknownIdentifier": "und",
+  "minBytesDefault": 140,
+  "maxBytesDefault": 700,
+  "maxBytesInput": 10000,
+  "languageResultStructSize": 24
+} 
+[05/28/20, 09:45:42:236] info: Network status check {
+  "elapsed_time_ms": 839,
+  "navigator_online": true,
+  "api_test": "online"
+} 
+[05/28/20, 09:45:42:236] info: Store: SET_NETWORK_STATUS online 
+[05/28/20, 09:45:42:237] info: JQMIGRATE: Migrate is installed with logging active, version 3.0.0 
+[05/28/20, 09:45:42:237] info: Store: UPDATE_SETTINGS {
+  "userTheme": "light"
+} 
+[05/28/20, 09:45:42:237] info: Store: UPDATE_SETTINGS {
+  "systemThemeSyncEnabled": false
+} 
+[05/28/20, 09:45:42:238] warn: error getActiveModelOb found no ob 
+[05/28/20, 09:45:42:238] warn: TS.boot_data.channel_id: undefined 
+[05/28/20, 09:45:42:238] warn: TS.boot_data.im_id: undefined 
+[05/28/20, 09:45:42:239] warn: TS.boot_data.group_id: undefined 
+[05/28/20, 09:45:42:239] warn: error getActiveModelOb found no ob 
+[05/28/20, 09:45:42:239] warn: TS.boot_data.channel_id: undefined 
+[05/28/20, 09:45:42:239] warn: TS.boot_data.im_id: undefined 
+[05/28/20, 09:45:42:239] warn: TS.boot_data.group_id: undefined 
+[05/28/20, 09:45:42:240] info: [BOOT] booted! pri:0 version:1590620544 start_ms:1590639338014 (3592ms ago) 
+[05/28/20, 09:45:42:240] info: [DESKTOP-MIDDLEWARE] (T00000000) Forwarding redux payload to desktop ["theme","notificationPrefs","featureFlags","bootConfig","unreads","locale"] 
+[05/28/20, 09:45:42:244] info: Exposing workspace desktop delegate for  T00000000 
+[05/28/20, 09:45:42:244] info: Setting global desktop delegate 
+[05/28/20, 09:45:42:245] warn: (T00000000) Clogger context could not be determined, using empty context 
+[05/28/20, 09:45:42:245] info: Store: REDUX_UPDATE_FROM_WEBAPP (T00000000) Changed keys [theme,notificationPrefs,featureFlags,bootConfig,unreads,locale] 
+[05/28/20, 09:45:42:249] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[05/28/20, 09:45:42:249] info: [INFO] no TS.client on page:https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient 
+[05/28/20, 09:45:42:249] info: [DESKTOP-MIDDLEWARE] (T00000000) Forwarding redux payload to desktop ["featureFlags","version"] 
+[05/28/20, 09:45:42:253] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "loaded"
+} 
+[05/28/20, 09:45:42:253] info: Store: MAIN_WINDOW_SHOWN  
+[05/28/20, 09:45:42:254] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 768,
+      "width": 1024,
+      "x": 484,
+      "y": 244
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[05/28/20, 09:45:42:254] info: Store: CLEAR_NOTIFICATIONS  
+[05/28/20, 09:45:42:256] info: Store: UPSERT_WEB_CONTENTS {
+  "history": "[REDACTED]",
+  "id": 1,
+  "type": "app"
+} 
+[05/28/20, 09:45:42:257] info: Store: REDUX_UPDATE_FROM_WEBAPP (T00000000) Changed keys [featureFlags,version] 
+[05/28/20, 09:45:43:163] info: [INFO] running without a user 
+[05/28/20, 09:45:43:323] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 333,
+      "width": 764,
+      "x": 1154,
+      "y": 513
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[05/28/20, 09:45:46:245] info: [FOCUS-EVENT] Window blurred 
+[05/28/20, 09:45:46:273] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[05/28/20, 09:45:46:274] info: [UNKNOWN-FETCH-MANAGER] (T00000000) requesting T00000000 (1) 
+[05/28/20, 09:45:46:276] warn: TRACES You tried to get a team-specific tracer but didn’t provide enough context and are getting the generic tracer instead which is likely not what you want. 
+[05/28/20, 09:45:46:281] info: [API-Q] (T00000000) 089032cd-1590639346.276 team.info called with reason: UnknownFetchManager 
+[05/28/20, 09:45:46:281] info: [API-Q] (T00000000) 089032cd-1590639346.276 team.info is ENQUEUED 
+[05/28/20, 09:45:46:281] info: [API-Q] (T00000000) 089032cd-1590639346.276 team.info is ACTIVE 
+[05/28/20, 09:45:46:517] info: [API-Q] (T00000000) 089032cd-1590639346.276 team.info is REJECTED: API not ok not_authed 
+[05/28/20, 09:45:46:526] info: [UNKNOWN-FETCH-MANAGER] (T00000000) received T00000000 (1) 
+[05/28/20, 09:45:46:527] warn: (T00000000) UnknownFetchManager requested 1 objects but received 0. Missing objects: T00000000 
+[05/28/20, 09:45:56:562] info: [FOCUS-EVENT] Window focused 
+[05/28/20, 09:45:58:232] info: Store: QUIT_APP  
+[05/28/20, 09:45:58:234] info: [FOCUS-EVENT] Window blurred 
+[05/28/20, 09:45:58:549] info: [WINDOW-UNLOADING] (T00000000) workspace handling window unloading event 
+[05/28/20, 09:54:06:069] info: 
+╔════════════════════════════════════════════════════════════════════════════════╗
+║      Slack 4.4.3, linux 5.4.0-33-generic on x64 at 05/28/20, 09:54:06:068      ║
+╚════════════════════════════════════════════════════════════════════════════════╝ 
+[05/28/20, 09:54:06:070] info: Configured logger via 
+{
+  "identifierOverride": "webapp-console",
+  "logLevel": "info",
+  "numberOfInstances": 2
+}
+[05/28/20, 09:54:06:071] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.4.3",
+  "PACKAGE_MANIFEST.commit": "b4c6ab2",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[05/28/20, 09:54:06:072] info: toggleAutoSpellcheck:: desktop interface is not available 
+[05/28/20, 09:54:06:073] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[05/28/20, 09:54:06:073] info: Creating desktop interface object 
+[05/28/20, 09:54:06:074] info: Exposing context bridge 
+[05/28/20, 09:54:06:074] info: Main window preload script finished {
+  "readyTime": 81.073646
+} 
+[05/28/20, 09:54:06:075] info: JQMIGRATE: Migrate is installed with logging active, version 3.0.0 
+[05/28/20, 09:54:06:075] info: create: creating new instance of cld3 {
+  "minBufferLength": 140,
+  "maxBufferLength": 1000
+} 
+[05/28/20, 09:54:06:076] info: cld3::loadModule: loading cld3 wasm binary {
+  "initOptions": {}
+} 
+[05/28/20, 09:54:06:076] info: cld3Loader::loadModule: constructed module object for runtime 
+[05/28/20, 09:54:06:077] info: cld3Loader::initializeRuntime: successfully initialized module 
+[05/28/20, 09:54:06:077] info: cld3Loader::loadModule: initialized wasm binary Runtime 
+[05/28/20, 09:54:06:078] info: cld3::cldLoader: cld3 wasm initialized with default values {
+  "unknownIdentifier": "und",
+  "minBytesDefault": 140,
+  "maxBytesDefault": 700,
+  "maxBytesInput": 10000,
+  "languageResultStructSize": 24
+} 
+[05/28/20, 09:54:06:078] info: Network status check {
+  "elapsed_time_ms": 341,
+  "navigator_online": true,
+  "api_test": "online"
+} 
+[05/28/20, 09:54:06:079] info: Store: SET_NETWORK_STATUS online 
+[05/28/20, 09:54:06:079] warn: error getActiveModelOb found no ob 
+[05/28/20, 09:54:06:080] warn: TS.boot_data.channel_id: undefined 
+[05/28/20, 09:54:06:080] warn: TS.boot_data.im_id: undefined 
+[05/28/20, 09:54:06:080] warn: TS.boot_data.group_id: undefined 
+[05/28/20, 09:54:06:080] warn: error getActiveModelOb found no ob 
+[05/28/20, 09:54:06:081] warn: TS.boot_data.channel_id: undefined 
+[05/28/20, 09:54:06:081] warn: TS.boot_data.im_id: undefined 
+[05/28/20, 09:54:06:082] warn: TS.boot_data.group_id: undefined 
+[05/28/20, 09:54:06:082] info: [BOOT] booted! pri:0 version:1590620544 start_ms:1590639844154 (1740ms ago) 
+[05/28/20, 09:54:06:082] info: [DESKTOP-MIDDLEWARE] (T00000000) Forwarding redux payload to desktop ["theme","notificationPrefs","featureFlags","bootConfig","unreads","locale"] 
+[05/28/20, 09:54:06:082] info: Exposing workspace desktop delegate for  T00000000 
+[05/28/20, 09:54:06:083] info: Setting global desktop delegate 
+[05/28/20, 09:54:06:083] warn: (T00000000) Clogger context could not be determined, using empty context 
+[05/28/20, 09:54:06:083] info: Store: UPDATE_SETTINGS {
+  "userTheme": "light"
+} 
+[05/28/20, 09:54:06:084] info: [DESKTOP-MIDDLEWARE] (T00000000) Forwarding redux payload to desktop ["featureFlags","version"] 
+[05/28/20, 09:54:06:084] info: Store: UPDATE_SETTINGS {
+  "systemThemeSyncEnabled": false
+} 
+[05/28/20, 09:54:06:084] info: Store: REDUX_UPDATE_FROM_WEBAPP (T00000000) Changed keys [theme,notificationPrefs,featureFlags,bootConfig,unreads,locale] 
+[05/28/20, 09:54:06:092] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[05/28/20, 09:54:06:094] info: [INFO] no TS.client on page:https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient 
+[05/28/20, 09:54:06:095] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "loaded"
+} 
+[05/28/20, 09:54:06:096] info: Store: MAIN_WINDOW_SHOWN  
+[05/28/20, 09:54:06:097] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 333,
+      "width": 764,
+      "x": 1154,
+      "y": 513
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[05/28/20, 09:54:06:097] info: Store: CLEAR_NOTIFICATIONS  
+[05/28/20, 09:54:06:101] info: Store: REDUX_UPDATE_FROM_WEBAPP (T00000000) Changed keys [featureFlags,version] 
+[05/28/20, 09:54:06:103] info: Store: UPSERT_WEB_CONTENTS {
+  "history": "[REDACTED]",
+  "id": 1,
+  "type": "app"
+} 
+[05/28/20, 09:54:06:309] info: [INFO] running without a user 
+[05/28/20, 09:54:07:165] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 1040,
+      "width": 1916,
+      "x": 2,
+      "y": 18
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[05/28/20, 09:54:11:975] info: [FOCUS-EVENT] Window blurred 
+[05/28/20, 09:54:12:032] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[05/28/20, 09:54:12:033] info: [UNKNOWN-FETCH-MANAGER] (T00000000) requesting T00000000 (1) 
+[05/28/20, 09:54:12:040] warn: TRACES You tried to get a team-specific tracer but didn’t provide enough context and are getting the generic tracer instead which is likely not what you want. 
+[05/28/20, 09:54:12:058] info: [API-Q] (T00000000) 089032cd-1590639852.043 team.info called with reason: UnknownFetchManager 
+[05/28/20, 09:54:12:059] info: [API-Q] (T00000000) 089032cd-1590639852.043 team.info is ENQUEUED 
+[05/28/20, 09:54:12:061] info: [API-Q] (T00000000) 089032cd-1590639852.043 team.info is ACTIVE 
+[05/28/20, 09:54:12:297] info: [API-Q] (T00000000) 089032cd-1590639852.043 team.info is REJECTED: API not ok not_authed 
+[05/28/20, 09:54:12:305] info: [UNKNOWN-FETCH-MANAGER] (T00000000) received T00000000 (1) 
+[05/28/20, 09:54:12:306] warn: (T00000000) UnknownFetchManager requested 1 objects but received 0. Missing objects: T00000000 
+[05/28/20, 09:55:01:348] info: Store: UPDATE_SETTINGS {
+  "lastClogForProxyInfo": 1590639901344
+} 
+[05/28/20, 09:56:50:364] info: [FOCUS-EVENT] Window focused 
+[05/28/20, 09:56:50:490] info: [FOCUS-EVENT] Window blurred 
+[05/28/20, 09:56:51:592] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 1060,
+      "width": 1916,
+      "x": 2,
+      "y": 18
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[05/28/20, 10:00:03:471] info: [FOCUS-EVENT] Window focused 
+[05/28/20, 10:00:03:473] info: [FOCUS-EVENT] Window blurred 
+[05/28/20, 10:00:04:780] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 1040,
+      "width": 1916,
+      "x": 2,
+      "y": 38
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[05/28/20, 10:00:14:449] info: [FOCUS-EVENT] Window focused 
+[05/28/20, 10:00:14:622] info: [FOCUS-EVENT] Window blurred 
+[05/28/20, 10:00:15:737] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 1052,
+      "width": 1916,
+      "x": 2,
+      "y": 26
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[05/28/20, 10:00:27:507] info: [FOCUS-EVENT] Window focused 
+[05/28/20, 10:00:27:693] info: [FOCUS-EVENT] Window blurred 
+[05/28/20, 10:00:28:823] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 1056,
+      "width": 1916,
+      "x": 2,
+      "y": 22
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[05/28/20, 10:07:22:292] info: [FOCUS-EVENT] Window focused 
+[05/28/20, 10:07:22:482] info: [FOCUS-EVENT] Window blurred 
+[05/28/20, 10:07:23:595] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 1056,
+      "width": 1916,
+      "x": 2,
+      "y": 22
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[05/28/20, 10:08:26:584] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[05/28/20, 10:08:36:592] info: Store: SET_SYSTEM_IDLE active 
+[05/28/20, 10:11:30:779] info: [FOCUS-EVENT] Window focused 
+[05/28/20, 10:11:30:957] info: [FOCUS-EVENT] Window blurred 
+[05/28/20, 10:11:32:078] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 1058,
+      "width": 1920,
+      "x": 0,
+      "y": 22
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[05/28/20, 10:12:22:400] info: [FOCUS-EVENT] Window focused 
+[05/28/20, 10:12:22:576] info: [FOCUS-EVENT] Window blurred 
+[05/28/20, 10:20:17:108] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[05/28/20, 10:23:37:285] info: Store: SET_SYSTEM_IDLE active 
+[05/28/20, 11:00:04:146] info: 
+╔════════════════════════════════════════════════════════════════════════════════╗
+║      Slack 4.4.3, linux 5.4.0-33-generic on x64 at 05/28/20, 11:00:04:145      ║
+╚════════════════════════════════════════════════════════════════════════════════╝ 
+[05/28/20, 11:00:04:147] info: Configured logger via 
+{
+  "identifierOverride": "webapp-console",
+  "logLevel": "info",
+  "numberOfInstances": 2
+}
+[05/28/20, 11:00:04:148] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.4.3",
+  "PACKAGE_MANIFEST.commit": "b4c6ab2",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[05/28/20, 11:00:04:148] info: toggleAutoSpellcheck:: desktop interface is not available 
+[05/28/20, 11:00:04:148] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[05/28/20, 11:00:04:149] info: Creating desktop interface object 
+[05/28/20, 11:00:04:149] info: Exposing context bridge 
+[05/28/20, 11:00:04:149] info: Main window preload script finished {
+  "readyTime": 77.675586
+} 
+[05/28/20, 11:00:04:149] info: JQMIGRATE: Migrate is installed with logging active, version 3.0.0 
+[05/28/20, 11:00:04:150] info: create: creating new instance of cld3 {
+  "minBufferLength": 140,
+  "maxBufferLength": 1000
+} 
+[05/28/20, 11:00:04:150] info: cld3::loadModule: loading cld3 wasm binary {
+  "initOptions": {}
+} 
+[05/28/20, 11:00:04:150] info: cld3Loader::loadModule: constructed module object for runtime 
+[05/28/20, 11:00:04:150] info: cld3Loader::initializeRuntime: successfully initialized module 
+[05/28/20, 11:00:04:151] info: cld3Loader::loadModule: initialized wasm binary Runtime 
+[05/28/20, 11:00:04:151] info: cld3::cldLoader: cld3 wasm initialized with default values {
+  "unknownIdentifier": "und",
+  "minBytesDefault": 140,
+  "maxBytesDefault": 700,
+  "maxBytesInput": 10000,
+  "languageResultStructSize": 24
+} 
+[05/28/20, 11:00:04:151] info: Store: UPDATE_SETTINGS {
+  "userTheme": "light"
+} 
+[05/28/20, 11:00:04:151] info: Store: UPDATE_SETTINGS {
+  "systemThemeSyncEnabled": false
+} 
+[05/28/20, 11:00:04:151] warn: error getActiveModelOb found no ob 
+[05/28/20, 11:00:04:152] warn: TS.boot_data.channel_id: undefined 
+[05/28/20, 11:00:04:152] warn: TS.boot_data.im_id: undefined 
+[05/28/20, 11:00:04:152] warn: TS.boot_data.group_id: undefined 
+[05/28/20, 11:00:04:152] warn: error getActiveModelOb found no ob 
+[05/28/20, 11:00:04:152] warn: TS.boot_data.channel_id: undefined 
+[05/28/20, 11:00:04:153] warn: TS.boot_data.im_id: undefined 
+[05/28/20, 11:00:04:153] warn: TS.boot_data.group_id: undefined 
+[05/28/20, 11:00:04:153] info: [BOOT] booted! pri:0 version:1590620544 start_ms:1590643800687 (1143ms ago) 
+[05/28/20, 11:00:04:153] info: [DESKTOP-MIDDLEWARE] (T00000000) Forwarding redux payload to desktop ["theme","notificationPrefs","featureFlags","bootConfig","unreads","locale"] 
+[05/28/20, 11:00:04:153] info: Exposing workspace desktop delegate for  T00000000 
+[05/28/20, 11:00:04:154] info: Setting global desktop delegate 
+[05/28/20, 11:00:04:154] warn: (T00000000) Clogger context could not be determined, using empty context 
+[05/28/20, 11:00:04:154] info: Store: REDUX_UPDATE_FROM_WEBAPP (T00000000) Changed keys [theme,notificationPrefs,featureFlags,bootConfig,unreads,locale] 
+[05/28/20, 11:00:04:154] info: Network status check {
+  "elapsed_time_ms": 3072,
+  "navigator_online": true,
+  "api_test": "online"
+} 
+[05/28/20, 11:00:04:160] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[05/28/20, 11:00:04:160] info: [INFO] no TS.client on page:https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient 
+[05/28/20, 11:00:04:161] info: [DESKTOP-MIDDLEWARE] (T00000000) Forwarding redux payload to desktop ["featureFlags","version"] 
+[05/28/20, 11:00:04:163] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "loaded"
+} 
+[05/28/20, 11:00:04:163] info: Store: MAIN_WINDOW_SHOWN  
+[05/28/20, 11:00:04:164] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 1058,
+      "width": 1920,
+      "x": 0,
+      "y": 22
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[05/28/20, 11:00:04:164] info: Store: CLEAR_NOTIFICATIONS  
+[05/28/20, 11:00:04:167] info: Store: SET_NETWORK_STATUS online 
+[05/28/20, 11:00:04:169] info: Store: UPSERT_WEB_CONTENTS {
+  "history": "[REDACTED]",
+  "id": 1,
+  "type": "app"
+} 
+[05/28/20, 11:00:04:171] info: Store: REDUX_UPDATE_FROM_WEBAPP (T00000000) Changed keys [featureFlags,version] 
+[05/28/20, 11:00:04:263] info: [INFO] running without a user 
+[05/28/20, 11:00:05:234] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 1030,
+      "width": 1920,
+      "x": 0,
+      "y": 24
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[05/28/20, 11:00:10:595] info: [FOCUS-EVENT] Window blurred 
+[05/28/20, 11:00:10:631] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[05/28/20, 11:00:10:632] info: [UNKNOWN-FETCH-MANAGER] (T00000000) requesting T00000000 (1) 
+[05/28/20, 11:00:10:638] warn: TRACES You tried to get a team-specific tracer but didn’t provide enough context and are getting the generic tracer instead which is likely not what you want. 
+[05/28/20, 11:00:10:648] info: [API-Q] (T00000000) 089032cd-1590643810.640 team.info called with reason: UnknownFetchManager 
+[05/28/20, 11:00:10:649] info: [API-Q] (T00000000) 089032cd-1590643810.640 team.info is ENQUEUED 
+[05/28/20, 11:00:10:652] info: [API-Q] (T00000000) 089032cd-1590643810.640 team.info is ACTIVE 
+[05/28/20, 11:00:10:909] info: [API-Q] (T00000000) 089032cd-1590643810.640 team.info is REJECTED: API not ok not_authed 
+[05/28/20, 11:00:10:912] info: [UNKNOWN-FETCH-MANAGER] (T00000000) received T00000000 (1) 
+[05/28/20, 11:00:10:912] warn: (T00000000) UnknownFetchManager requested 1 objects but received 0. Missing objects: T00000000 
+[05/28/20, 11:00:11:910] info: [FOCUS-EVENT] Window focused 
+[05/28/20, 11:00:12:569] info: Store: QUIT_APP  
+[05/28/20, 11:00:12:575] info: [FOCUS-EVENT] Window blurred 
+[05/28/20, 11:00:12:585] info: [WINDOW-UNLOADING] (T00000000) workspace handling window unloading event 
+[05/28/20, 11:17:04:671] info: 
+╔════════════════════════════════════════════════════════════════════════════════╗
+║      Slack 4.4.3, linux 5.4.0-33-generic on x64 at 05/28/20, 11:17:04:670      ║
+╚════════════════════════════════════════════════════════════════════════════════╝ 
+[05/28/20, 11:17:04:671] info: Configured logger via 
+{
+  "identifierOverride": "webapp-console",
+  "logLevel": "info",
+  "numberOfInstances": 2
+}
+[05/28/20, 11:17:04:671] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.4.3",
+  "PACKAGE_MANIFEST.commit": "b4c6ab2",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[05/28/20, 11:17:04:672] info: toggleAutoSpellcheck:: desktop interface is not available 
+[05/28/20, 11:17:04:672] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[05/28/20, 11:17:04:672] info: Creating desktop interface object 
+[05/28/20, 11:17:04:672] info: Exposing context bridge 
+[05/28/20, 11:17:04:673] info: Main window preload script finished {
+  "readyTime": 63.129135
+} 
+[05/28/20, 11:17:04:673] info: JQMIGRATE: Migrate is installed with logging active, version 3.0.0 
+[05/28/20, 11:17:04:673] info: create: creating new instance of cld3 {
+  "minBufferLength": 140,
+  "maxBufferLength": 1000
+} 
+[05/28/20, 11:17:04:673] info: cld3::loadModule: loading cld3 wasm binary {
+  "initOptions": {}
+} 
+[05/28/20, 11:17:04:673] info: cld3Loader::loadModule: constructed module object for runtime 
+[05/28/20, 11:17:04:673] info: cld3Loader::initializeRuntime: successfully initialized module 
+[05/28/20, 11:17:04:673] info: cld3Loader::loadModule: initialized wasm binary Runtime 
+[05/28/20, 11:17:04:674] info: cld3::cldLoader: cld3 wasm initialized with default values {
+  "unknownIdentifier": "und",
+  "minBytesDefault": 140,
+  "maxBytesDefault": 700,
+  "maxBytesInput": 10000,
+  "languageResultStructSize": 24
+} 
+[05/28/20, 11:17:04:674] info: Store: UPDATE_SETTINGS {
+  "userTheme": "light"
+} 
+[05/28/20, 11:17:04:674] info: Store: UPDATE_SETTINGS {
+  "systemThemeSyncEnabled": false
+} 
+[05/28/20, 11:17:04:674] warn: error getActiveModelOb found no ob 
+[05/28/20, 11:17:04:674] warn: TS.boot_data.channel_id: undefined 
+[05/28/20, 11:17:04:674] warn: TS.boot_data.im_id: undefined 
+[05/28/20, 11:17:04:674] warn: TS.boot_data.group_id: undefined 
+[05/28/20, 11:17:04:675] warn: error getActiveModelOb found no ob 
+[05/28/20, 11:17:04:675] warn: TS.boot_data.channel_id: undefined 
+[05/28/20, 11:17:04:675] warn: TS.boot_data.im_id: undefined 
+[05/28/20, 11:17:04:675] warn: TS.boot_data.group_id: undefined 
+[05/28/20, 11:17:04:675] info: [BOOT] booted! pri:0 version:1590620544 start_ms:1590644823096 (1419ms ago) 
+[05/28/20, 11:17:04:675] info: [DESKTOP-MIDDLEWARE] (T00000000) Forwarding redux payload to desktop ["theme","notificationPrefs","featureFlags","bootConfig","unreads","locale"] 
+[05/28/20, 11:17:04:675] info: Exposing workspace desktop delegate for  T00000000 
+[05/28/20, 11:17:04:676] info: Setting global desktop delegate 
+[05/28/20, 11:17:04:676] warn: (T00000000) Clogger context could not be determined, using empty context 
+[05/28/20, 11:17:04:676] info: Store: REDUX_UPDATE_FROM_WEBAPP (T00000000) Changed keys [theme,notificationPrefs,featureFlags,bootConfig,unreads,locale] 
+[05/28/20, 11:17:04:680] info: Network status check {
+  "elapsed_time_ms": 1155,
+  "navigator_online": true,
+  "api_test": "online"
+} 
+[05/28/20, 11:17:04:680] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[05/28/20, 11:17:04:681] info: [INFO] no TS.client on page:https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient 
+[05/28/20, 11:17:04:681] info: [DESKTOP-MIDDLEWARE] (T00000000) Forwarding redux payload to desktop ["featureFlags","version"] 
+[05/28/20, 11:17:04:682] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "loaded"
+} 
+[05/28/20, 11:17:04:682] info: Store: MAIN_WINDOW_SHOWN  
+[05/28/20, 11:17:04:682] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 1030,
+      "width": 1920,
+      "x": 0,
+      "y": 24
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[05/28/20, 11:17:04:683] info: Store: CLEAR_NOTIFICATIONS  
+[05/28/20, 11:17:04:684] info: Store: UPSERT_WEB_CONTENTS {
+  "history": "[REDACTED]",
+  "id": 1,
+  "type": "app"
+} 
+[05/28/20, 11:17:04:686] info: Store: SET_NETWORK_STATUS online 
+[05/28/20, 11:17:04:687] info: Store: REDUX_UPDATE_FROM_WEBAPP (T00000000) Changed keys [featureFlags,version] 
+[05/28/20, 11:17:04:756] info: [INFO] running without a user 
+[05/28/20, 11:17:13:301] info: [FOCUS-EVENT] Window blurred 
+[05/28/20, 11:17:13:370] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[05/28/20, 11:17:13:371] info: [UNKNOWN-FETCH-MANAGER] (T00000000) requesting T00000000 (1) 
+[05/28/20, 11:17:13:379] warn: TRACES You tried to get a team-specific tracer but didn’t provide enough context and are getting the generic tracer instead which is likely not what you want. 
+[05/28/20, 11:17:13:395] info: [API-Q] (T00000000) 089032cd-1590644833.382 team.info called with reason: UnknownFetchManager 
+[05/28/20, 11:17:13:397] info: [API-Q] (T00000000) 089032cd-1590644833.382 team.info is ENQUEUED 
+[05/28/20, 11:17:13:399] info: [API-Q] (T00000000) 089032cd-1590644833.382 team.info is ACTIVE 
+[05/28/20, 11:17:13:620] info: [API-Q] (T00000000) 089032cd-1590644833.382 team.info is REJECTED: API not ok not_authed 
+[05/28/20, 11:17:13:625] info: [UNKNOWN-FETCH-MANAGER] (T00000000) received T00000000 (1) 
+[05/28/20, 11:17:13:626] warn: (T00000000) UnknownFetchManager requested 1 objects but received 0. Missing objects: T00000000 
+[05/28/20, 11:20:02:987] info: Store: HANDLE_DEEP_LINK {
+  "causedLaunch": false,
+  "url": "slack://THF90G329/magic-login/1162344511793-778683c239a360490a183b8255a084f0ef89811c3cc4c2b955a512659a46fe8b"
+} 
+[05/28/20, 11:20:02:989] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 2,
+  "state": "unloaded"
+} 
+[05/28/20, 11:20:03:425] info: Store: UPSERT_WEB_CONTENTS {
+  "history": "[REDACTED]",
+  "id": 1
+} 
+[05/28/20, 11:20:03:606] info: [WINDOW-UNLOADING] (T00000000) workspace handling window unloading event 
+[05/28/20, 11:20:03:840] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 2,
+  "state": "loaded"
+} 
+[05/28/20, 11:20:03:841] info: Store: UPSERT_WEB_CONTENTS {
+  "history": "[REDACTED]",
+  "id": 2,
+  "type": "auth"
+} 
+[05/28/20, 11:20:03:857] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 2,
+  "state": "page-closed"
+} 
+[05/28/20, 11:20:03:866] info: Store: REMOVE_WEB_CONTENTS {
+  "id": 2
+} 
+[05/28/20, 11:20:04:844] info: [FOCUS-EVENT] Window focused 
+[05/28/20, 11:20:04:889] info: toggleAutoSpellcheck:: desktop interface is not available 
+[05/28/20, 11:20:04:890] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[05/28/20, 11:20:05:321] info: Creating desktop interface object 
+[05/28/20, 11:20:05:327] info: Exposing context bridge 
+[05/28/20, 11:20:05:337] info: Main window preload script finished {
+  "readyTime": 445.030871
+} 
+[05/28/20, 11:20:05:411] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "loaded"
+} 
+[05/28/20, 11:20:05:555] info: create: creating new instance of cld3 {
+  "minBufferLength": 140,
+  "maxBufferLength": 1000
+} 
+[05/28/20, 11:20:05:556] info: cld3::loadModule: loading cld3 wasm binary {
+  "initOptions": {}
+} 
+[05/28/20, 11:20:05:557] info: cld3Loader::loadModule: constructed module object for runtime 
+[05/28/20, 11:20:05:646] info: cld3Loader::initializeRuntime: successfully initialized module 
+[05/28/20, 11:20:05:647] info: cld3Loader::loadModule: initialized wasm binary Runtime 
+[05/28/20, 11:20:05:647] info: cld3::cldLoader: cld3 wasm initialized with default values {
+  "unknownIdentifier": "und",
+  "minBytesDefault": 140,
+  "maxBytesDefault": 700,
+  "maxBytesInput": 10000,
+  "languageResultStructSize": 24
+} 
+[05/28/20, 11:20:05:721] info: Network status check {
+  "elapsed_time_ms": 358,
+  "navigator_online": true,
+  "api_test": "online"
+} 
+[05/28/20, 11:20:05:724] info: Store: SET_NETWORK_STATUS online 
+[05/28/20, 11:20:05:915] info: [METRICS] Starting timers for metrics collection 
+[05/28/20, 11:20:06:132] info: [PERF] setupGantry_w begin 1929ms 
+[05/28/20, 11:20:06:136] info: [APP] client 
+[05/28/20, 11:20:06:137] info: [DATE/TIME] 1590645006135 "2020-05-28T05:50:06.135Z" 
+[05/28/20, 11:20:06:138] info: [VERSION] version_hash: 089032cd1f141e7042333c131cbfb0c1da075cdd 
+[05/28/20, 11:20:06:139] info: [VERSION] version_ts: 1590620544 
+[05/28/20, 11:20:06:140] info: [VERSION] min_version_data_ts: 1581290339 
+[05/28/20, 11:20:06:141] info: [AUTH] authCookieChanged: started listening to the event 
+[05/28/20, 11:20:06:161] info: [AUTH] Need to re-fetch auth (sc=true, psc=NaN, csc=1590645003, mfc=true, lf=0, mf=1562000400) 
+[05/28/20, 11:20:06:165] info: [AUTH] fetchAuthAndReturnToUrl: auth fetch times: 1590645006163 
+[05/28/20, 11:20:06:169] info: [AUTH] fetchAuthAndReturnToUrl: will return to /client 
+[05/28/20, 11:20:06:171] info: [AUTH] fetchAuthAndReturnToUrl: fetching credentials with iframe at /auth?app=client&lc=null&return_to=%2Fclient&teams= 
+[05/28/20, 11:20:06:181] info: [WD] All assets have reported back; s: 7; f: 0 
+[05/28/20, 11:20:06:479] info: [AUTH] credentials are ready 
+[05/28/20, 11:20:06:482] info: [AUTH] credentials are ready ({"added":["THF90G329"],"changed":[],"removed":[],"isNoOp":false,"usersChanged":false}) 
+[05/28/20, 11:20:06:485] info: [LOCAL-CONFIG] ingestIncomingConfig(): processing 557 bytes of data 
+[05/28/20, 11:20:06:488] info: [LOCAL-CONFIG] ingestIncomingConfig(): teams before: (none), teams now: THF90G329:UPA3JNC0H 
+[05/28/20, 11:20:06:494] info: [BOOT] Initial team ID: THF90G329 
+[05/28/20, 11:20:06:497] info: [PERF] setupGantry_w took 366.47ms 
+[05/28/20, 11:20:06:506] info: [PERF] bootClient_w begin 2304ms 
+[05/28/20, 11:20:06:520] info: [BOOT] (THF90G329) Initializing boot 
+[05/28/20, 11:20:06:540] info: [BOOT] (THF90G329) Minimum supported data version is 1581290339; currently on undefined 
+[05/28/20, 11:20:06:541] info: [BOOT] (THF90G329) Skipping checking persisted store because if it exists it's out of date 
+[05/28/20, 11:20:06:542] info: [PERSIST] (THF90G329) Purging persisted model... 
+[05/28/20, 11:20:06:562] info: [BOOT-QUEUE] THF90G329 noversion-1590645006.556 client.boot called with reason: initial-data 
+[05/28/20, 11:20:06:563] info: [BOOT-QUEUE] THF90G329 noversion-1590645006.556 client.boot is ENQUEUED 
+[05/28/20, 11:20:06:565] info: [BOOT-QUEUE] THF90G329 noversion-1590645006.556 client.boot is ACTIVE 
+[05/28/20, 11:20:06:571] info: [BOOT-QUEUE] THF90G329 noversion-1590645006.568 api.features called 
+[05/28/20, 11:20:06:572] info: [BOOT-QUEUE] THF90G329 noversion-1590645006.568 api.features is ENQUEUED 
+[05/28/20, 11:20:06:573] info: [BOOT-QUEUE] THF90G329 noversion-1590645006.568 api.features is ACTIVE 
+[05/28/20, 11:20:06:574] info: [BOOT-QUEUE] THF90G329 noversion-1590645006.572 experiments.getByUser called 
+[05/28/20, 11:20:06:575] info: [BOOT-QUEUE] THF90G329 noversion-1590645006.572 experiments.getByUser is ENQUEUED 
+[05/28/20, 11:20:06:576] info: [BOOT-QUEUE] THF90G329 noversion-1590645006.572 experiments.getByUser is ACTIVE 
+[05/28/20, 11:20:06:577] info: [BOOT] Couldn't determine boot channel. Falling back to default channel 
+[05/28/20, 11:20:06:825] info: [BOOT-QUEUE] THF90G329 noversion-1590645006.568 api.features is RESOLVED 
+[05/28/20, 11:20:06:839] info: [BOOT-QUEUE] THF90G329 noversion-1590645006.572 experiments.getByUser is RESOLVED 
+[05/28/20, 11:20:06:897] info: [BOOT-QUEUE] THF90G329 noversion-1590645006.556 client.boot is RESOLVED 
+[05/28/20, 11:20:08:365] info: [EMOJI_TRANSLATION] Emoji translations and keywords loaded for en-GB 
+[05/28/20, 11:20:08:370] info: [EMOJI_TRANSLATION] Emoji translations already loaded for en-GB 
+[05/28/20, 11:20:08:371] info: [BOOT] (THF90G329) Booting cold 
+[05/28/20, 11:20:08:372] info: [DESKTOP-MIDDLEWARE] (THF90G329) Forwarding redux payload to desktop ["theme","notificationPrefs","featureFlags","bootConfig","unreads","locale"] 
+[05/28/20, 11:20:08:372] info: [BOOT] (THF90G329) Dispatching boot data 
+[05/28/20, 11:20:08:373] info: [DESKTOP-MIDDLEWARE] (THF90G329) Forwarding redux payload to desktop ["featureFlags","version"] 
+[05/28/20, 11:20:08:374] info: [DESKTOP-MIDDLEWARE] (THF90G329) Forwarding redux payload to desktop ["theme"] 
+[05/28/20, 11:20:08:374] info: [DESKTOP-MIDDLEWARE] (THF90G329) Forwarding redux payload to desktop ["theme","notificationPrefs","unreads"] 
+[05/28/20, 11:20:08:375] info: [EMOJI_TRANSLATION] Emoji translations already loaded for en-GB 
+[05/28/20, 11:20:08:376] info: [API-Q] (THF90G329) 089032cd-1590645008.097 emoji.list called with reason: loadEmoji 
+[05/28/20, 11:20:08:376] info: [API-Q] (THF90G329) 089032cd-1590645008.097 emoji.list is ENQUEUED 
+[05/28/20, 11:20:08:377] info: [API-Q] (THF90G329) 089032cd-1590645008.097 emoji.list is ACTIVE 
+[05/28/20, 11:20:08:378] info: [API-Q] (THF90G329) 089032cd-1590645008.103 commands.list called with reason: loadSlashCommands 
+[05/28/20, 11:20:08:378] info: [API-Q] (THF90G329) 089032cd-1590645008.103 commands.list is ENQUEUED 
+[05/28/20, 11:20:08:379] info: [API-Q] (THF90G329) 089032cd-1590645008.103 commands.list is ACTIVE 
+[05/28/20, 11:20:08:379] info: [PLATFORM-CHANNEL-ACTI] (THF90G329) setting count for channel CHGC3HJGN to 0, and marking channel as stale. 
+[05/28/20, 11:20:08:380] info: [BOOT] (THF90G329) Boot complete 
+[05/28/20, 11:20:08:381] info: [UNREAD-COUNTS] (THF90G329) Counting unreads in CHGC3HJGN because (14) timestamps added 
+[05/28/20, 11:20:08:381] info: [UNREAD-COUNTS] (THF90G329) Checking unreads in CHGC3HJGN after a new message 
+[05/28/20, 11:20:08:382] info: [CHECK-UNREADS] (THF90G329) Not marking CHGC3HJGN because attention not on chat (workspace_not_focused) 
+[05/28/20, 11:20:08:383] info: [DESKTOP-SIDE-EFFECT] (THF90G329) Reacting to  {"type":"[30] Set a value that represents whether we are currently in the boot phase","payload":false,"error":false} 
+[05/28/20, 11:20:08:383] info: [AUTH] Installing incremental auth handler 
+[05/28/20, 11:20:08:385] info: [DESKTOP-SIDE-EFFECT] (THF90G329) Team THF90G329 booted, creating delegate 
+[05/28/20, 11:20:08:386] info: Exposing workspace desktop delegate for  THF90G329 
+[05/28/20, 11:20:08:387] info: Setting global desktop delegate 
+[05/28/20, 11:20:08:387] info: [DESKTOP-SIDE-EFFECT] (THF90G329) Attempted boot for all workspaces, signaling desktop 
+[05/28/20, 11:20:08:388] info: postLoadTaskSetup: loading spellchecker 
+[05/28/20, 11:20:08:388] info: [BOOT] (THF90G329) Connecting to socket 
+[05/28/20, 11:20:08:389] info: [SOCKET-MANAGER] (THF90G329) Changing from never_connected to prov_connect 
+[05/28/20, 11:20:08:390] info: [SOCKET-MANAGER] (THF90G329) will stay in prov_connect state for up to 10000 ms 
+[05/28/20, 11:20:08:390] info: [SOCKET-MANAGER] (THF90G329) Changing from prov_connect to prov_connecting 
+[05/28/20, 11:20:08:391] info: [SOCKET-MANAGER] (THF90G329) will stay in prov_connecting state for up to 35000 ms 
+[05/28/20, 11:20:10:408] error: [DESKTOP] 'desktop.stats.performance.timeSpentInPreload' is missing or not a function 
+[05/28/20, 11:20:10:410] info: [BOOT] (THF90G329) (THF90G329) Mounting client 
+[05/28/20, 11:20:10:411] info: [LS_CACHE] Read value from localStorage for seen_ia_education 
+[05/28/20, 11:20:10:411] info: [HISTORY-NAVIGATION] Adding route to the history stack 
+[05/28/20, 11:20:10:412] info: [IA-EDU-CTA] (THF90G329) setting seen_ia_education LS 
+[05/28/20, 11:20:10:413] info: [LS_CACHE] Set value in localStorage for seen_ia_education 
+[05/28/20, 11:20:10:413] info: [LS_CACHE] Read value from localStorage for show_ia_tour_relaunch 
+[05/28/20, 11:20:10:414] info: [LS_CACHE] Read value from localStorage for seen_ia_education 
+[05/28/20, 11:20:10:486] error: [DESKTOP] 'desktop.stats.performance.timeSpentInPreload' is missing or not a function 
+[05/28/20, 11:20:10:487] info: [DRAFTS] (THF90G329) There are no channels with drafts 
+[05/28/20, 11:20:10:488] info: [API-Q] (THF90G329) 089032cd-1590645009.920 apps.getSidebarPrompts called with reason: initializeAppSuggestionLinksData 
+[05/28/20, 11:20:10:489] info: [API-Q] (THF90G329) 089032cd-1590645009.920 apps.getSidebarPrompts is ENQUEUED 
+[05/28/20, 11:20:10:490] info: [API-Q] (THF90G329) 089032cd-1590645009.920 apps.getSidebarPrompts is ACTIVE 
+[05/28/20, 11:20:10:491] info: [BOOT] (THF90G329) Beaconed client boot mount success 
+[05/28/20, 11:20:10:491] error: [DESKTOP] 'desktop.stats.performance.timeToPageLoad' is missing or not a function 
+[05/28/20, 11:20:10:492] info: [PERF] (THF90G329) Logged time to visible (TTV): 6352.785000000949 
+[05/28/20, 11:20:10:692] info: [API-Q] (THF90G329) 089032cd-1590645010.688 api.getFlannelHttpUrl called with reason: client-needs-valid-flannel-url 
+[05/28/20, 11:20:10:693] info: [API-Q] (THF90G329) 089032cd-1590645010.688 api.getFlannelHttpUrl is ENQUEUED 
+[05/28/20, 11:20:10:693] info: [API-Q] (THF90G329) 089032cd-1590645010.688 api.getFlannelHttpUrl is ACTIVE 
+[05/28/20, 11:20:11:222] info: [CHECK-UNREADS] (THF90G329) unreadLineVisible updated: false -> true 
+[05/28/20, 11:20:11:554] info: [PERF] (THF90G329) First meaningful paint: 5714ms 
+[05/28/20, 11:20:11:554] info: [PERF] bootClient_w took 5048.58ms 
+[05/28/20, 11:20:11:555] info: [BOOT] Booting other teams:  
+[05/28/20, 11:20:12:054] info: [PERSIST] Purging persisted models, except for the following teamIds ["THF90G329"] 
+[05/28/20, 11:20:12:068] info: [WD] All assets have reported back; s: 11; f: 0 
+[05/28/20, 11:20:12:093] info: [FOCUS-EVENT] Client window blurred 
+[05/28/20, 11:20:12:129] info: Store: UPDATE_SETTINGS {
+  "userTheme": "light"
+} 
+[05/28/20, 11:20:12:151] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app","downloads","environment","windows","settings"] 
+[05/28/20, 11:20:12:335] info: [CHECK-UNREADS] (THF90G329) Checking unreads after workspace became focused 
+[05/28/20, 11:20:12:335] info: [CHECK-UNREADS] (THF90G329) Not marking CHGC3HJGN because attention not on chat (window_not_focused) 
+[05/28/20, 11:20:12:336] info: [CHECK-UNREADS] (THF90G329) Checking unreads after window became focused 
+[05/28/20, 11:20:12:336] info: [CHECK-UNREADS] (THF90G329) Not marking CHGC3HJGN because attention not on chat (window_not_focused) 
+[05/28/20, 11:20:12:380] info: Store: UPDATE_SETTINGS {
+  "systemThemeSyncEnabled": false
+} 
+[05/28/20, 11:20:12:383] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[05/28/20, 11:20:12:389] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:20:12:397] info: Store: SYNC (Empty) 
+[05/28/20, 11:20:12:400] info: [API-Q] (THF90G329) 089032cd-1590645008.097 emoji.list is RESOLVED 
+[05/28/20, 11:20:12:403] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:20:12:408] info: Store: SELECTION_CHANGED THF90G329 
+[05/28/20, 11:20:12:410] info: Store: UPDATE_SETTINGS {
+  "locale": "en-US"
+} 
+[05/28/20, 11:20:12:413] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[05/28/20, 11:20:12:414] info: Store: UPDATE_SETTINGS {
+  "locale": "en-US"
+} 
+[05/28/20, 11:20:12:417] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[05/28/20, 11:20:12:417] info: Store: REDUX_UPDATE_FROM_WEBAPP (THF90G329) Changed keys [theme,notificationPrefs,featureFlags,bootConfig,unreads,locale] 
+[05/28/20, 11:20:12:418] info: Store: REDUX_UPDATE_FROM_WEBAPP (THF90G329) Changed keys [featureFlags,version] 
+[05/28/20, 11:20:12:418] info: Store: REDUX_UPDATE_FROM_WEBAPP (THF90G329) Changed keys [theme] 
+[05/28/20, 11:20:12:419] info: Store: REDUX_UPDATE_FROM_WEBAPP (THF90G329) Changed keys [theme,notificationPrefs,unreads] 
+[05/28/20, 11:20:12:419] info: Store: SYNC Synced 1 workspaces with IDs [THF90G329] 
+[05/28/20, 11:20:13:049] info: Store: SELECTION_CHANGED THF90G329 
+[05/28/20, 11:20:13:050] info: Store: UPDATE_SETTINGS {
+  "locale": "en-GB"
+} 
+[05/28/20, 11:20:13:051] info: TranslationLookup: locale set to en-GB for renderer 
+[05/28/20, 11:20:13:051] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[05/28/20, 11:20:13:052] info: Store: UPDATE_SETTINGS {
+  "locale": "en-GB"
+} 
+[05/28/20, 11:20:13:053] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[05/28/20, 11:20:13:053] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "webapp-loaded"
+} 
+[05/28/20, 11:20:13:054] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:20:13:213] info: [API-Q] (THF90G329) 089032cd-1590645008.103 commands.list is RESOLVED 
+[05/28/20, 11:20:13:215] info: Store: UPDATE_SETTINGS {
+  "forceHiddenInsetTitleBar": false
+} 
+[05/28/20, 11:20:13:224] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[05/28/20, 11:20:13:225] info: Store: UPDATE_SETTINGS {
+  "trafficLightPosition": {
+    "x": 14,
+    "y": 22
+  }
+} 
+[05/28/20, 11:20:13:232] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[05/28/20, 11:20:13:233] info: Store: UPDATE_SETTINGS {
+  "isIAEnabled": true
+} 
+[05/28/20, 11:20:13:241] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[05/28/20, 11:20:13:244] info: [API-Q] (THF90G329) 089032cd-1590645009.920 apps.getSidebarPrompts is RESOLVED 
+[05/28/20, 11:20:13:246] info: [API-Q] (THF90G329) 089032cd-1590645010.688 api.getFlannelHttpUrl is RESOLVED 
+[05/28/20, 11:20:13:284] info: [UNKNOWN-FETCH-MANAGER] (THF90G329) requesting UPA3JNC0H,USLACKBOT,UHDQE06NL,U01036WH0CQ,UV76CGDFV,UHH1KRLPR,UHFPS6QQM,U010GKUTWG0,U010T7ACYV9,UHFNBQZJ8 (1) 
+[05/28/20, 11:20:13:303] info: [FLANNEL] (THF90G329) received a user_subscribe_request call while we are not connected; deferring 
+[05/28/20, 11:20:13:320] info: [API-Q] (THF90G329) 089032cd-1590645013.311 promo.banner called with reason: fetch-megaphone-notification-data 
+[05/28/20, 11:20:13:321] info: [API-Q] (THF90G329) 089032cd-1590645013.311 promo.banner is ENQUEUED 
+[05/28/20, 11:20:13:322] info: [API-Q] (THF90G329) 089032cd-1590645013.311 promo.banner is ACTIVE 
+[05/28/20, 11:20:13:340] info: [API-Q] (THF90G329) 089032cd-1590645013.333 team.whatsNew called with reason: boot-team 
+[05/28/20, 11:20:13:340] info: [API-Q] (THF90G329) 089032cd-1590645013.333 team.whatsNew is ENQUEUED 
+[05/28/20, 11:20:13:342] info: [API-Q] (THF90G329) 089032cd-1590645013.333 team.whatsNew is ACTIVE 
+[05/28/20, 11:20:13:348] info: [API-Q] (THF90G329) 089032cd-1590645013.342 help.issues.list called with reason: fetchAndUpsertHelpIssues 
+[05/28/20, 11:20:13:349] info: [API-Q] (THF90G329) 089032cd-1590645013.342 help.issues.list is ENQUEUED 
+[05/28/20, 11:20:13:350] info: [API-Q] (THF90G329) 089032cd-1590645013.342 help.issues.list is ACTIVE 
+[05/28/20, 11:20:13:356] info: [API-Q] (THF90G329) 089032cd-1590645013.351 users.channelSections.list called with reason: conditional-fetch-manager 
+[05/28/20, 11:20:13:356] info: [API-Q] (THF90G329) 089032cd-1590645013.351 users.channelSections.list is ENQUEUED 
+[05/28/20, 11:20:13:357] info: [API-Q] (THF90G329) 089032cd-1590645013.351 users.channelSections.list is ACTIVE 
+[05/28/20, 11:20:13:361] info: [DND] (THF90G329) Preparing to fetch DND times for the following members: UPA3JNC0H,UHH1KRLPR 
+[05/28/20, 11:20:13:365] info: [API-Q] (THF90G329) 089032cd-1590645013.361 dnd.info called with reason: getDndTimesForSubscribedMembers 
+[05/28/20, 11:20:13:365] info: [API-Q] (THF90G329) 089032cd-1590645013.361 dnd.info is ENQUEUED 
+[05/28/20, 11:20:13:366] info: [API-Q] (THF90G329) 089032cd-1590645013.361 dnd.info is ACTIVE 
+[05/28/20, 11:20:13:369] info: [API-Q] (THF90G329) 089032cd-1590645013.366 dnd.teamInfo called with reason: getDndTimesForSubscribedMembers:self 
+[05/28/20, 11:20:13:369] info: [API-Q] (THF90G329) 089032cd-1590645013.366 dnd.teamInfo is ENQUEUED 
+[05/28/20, 11:20:13:370] info: [API-Q] (THF90G329) 089032cd-1590645013.366 dnd.teamInfo is ACTIVE 
+[05/28/20, 11:20:13:371] info: [CHECK-UNREADS] (THF90G329) Checking unreads after unread line became visible 
+[05/28/20, 11:20:13:371] info: [CHECK-UNREADS] (THF90G329) Not marking CHGC3HJGN because attention not on chat (window_not_focused) 
+[05/28/20, 11:20:13:457] info: loadAsmModule: loading hunspell-asm module 
+[05/28/20, 11:20:13:458] info: hunspell::loadModule: loading hunspell wasm binary {
+  "initOptions": {}
+} 
+[05/28/20, 11:20:13:458] info: hunspellLoader::loadModule: constructed module object for runtime 
+[05/28/20, 11:20:13:459] info: [EMOJI_STORE] (THF90G329) Adding custom emoji to THF90G329 at 1587843423.171900 
+[05/28/20, 11:20:13:467] info: hunspellLoader::initializeRuntime: successfully initialized module 
+[05/28/20, 11:20:13:467] info: hunspellLoader::loadModule: initialized wasm binary Runtime 
+[05/28/20, 11:20:13:467] info: hunspell::hunspellLoader: mount path for bufferFile created at /TrYsSu2lO0h_iT-Gf1OvmM8vJRUmqCrEX-EijAQJcxLE1 
+[05/28/20, 11:20:13:467] info: loadAsmModule: asm module loaded successfully 
+[05/28/20, 11:20:13:468] info: toggleAutoSpellcheck: run spellchecker with language detector 
+[05/28/20, 11:20:13:468] info: SpellChecker::enableSpellCheckerLanguageDetector: enable spellchecker language detector 
+[05/28/20, 11:20:13:468] info: SpellChecker::startWithDictionary: Starting language detector with English by default 
+[05/28/20, 11:20:13:487] info: [API-Q] (THF90G329) noversion-1590645013.484 Flannel users/list called with reason: flannel-call:users/list 
+[05/28/20, 11:20:13:487] info: [API-Q] (THF90G329) noversion-1590645013.484 Flannel users/list is ENQUEUED 
+[05/28/20, 11:20:13:487] info: [API-Q] (THF90G329) noversion-1590645013.484 Flannel users/list is ACTIVE 
+[05/28/20, 11:20:13:489] info: [API-Q] (THF90G329) noversion-1590645013.487 Flannel users/info called with reason: flannel-call:users/info 
+[05/28/20, 11:20:13:490] info: [API-Q] (THF90G329) noversion-1590645013.487 Flannel users/info is ENQUEUED 
+[05/28/20, 11:20:13:491] info: [API-Q] (THF90G329) noversion-1590645013.487 Flannel users/info is ACTIVE 
+[05/28/20, 11:20:13:492] info: [API-Q] (THF90G329) noversion-1590645013.490 Flannel users/info called with reason: flannel-call:users/info 
+[05/28/20, 11:20:13:493] info: [API-Q] (THF90G329) noversion-1590645013.490 Flannel users/info is ENQUEUED 
+[05/28/20, 11:20:13:493] info: [API-Q] (THF90G329) noversion-1590645013.490 Flannel users/info is ACTIVE 
+[05/28/20, 11:20:13:495] info: [API-Q] (THF90G329) noversion-1590645013.492 Flannel users/counts called with reason: flannel-call:users/counts 
+[05/28/20, 11:20:13:496] info: [API-Q] (THF90G329) noversion-1590645013.492 Flannel users/counts is ENQUEUED 
+[05/28/20, 11:20:13:496] info: [API-Q] (THF90G329) noversion-1590645013.492 Flannel users/counts is ACTIVE 
+[05/28/20, 11:20:13:498] info: [API-Q] (THF90G329) noversion-1590645013.495 Flannel users/counts called with reason: flannel-call:users/counts 
+[05/28/20, 11:20:13:498] info: [API-Q] (THF90G329) noversion-1590645013.495 Flannel users/counts is ENQUEUED 
+[05/28/20, 11:20:13:500] info: [API-Q] (THF90G329) noversion-1590645013.497 Flannel users/counts called with reason: flannel-call:users/counts 
+[05/28/20, 11:20:13:500] info: [API-Q] (THF90G329) noversion-1590645013.497 Flannel users/counts is ENQUEUED 
+[05/28/20, 11:20:13:501] info: [UNKNOWN-FETCH-MANAGER] (THF90G329) requesting _all_actions (1) 
+[05/28/20, 11:20:13:504] info: [API-Q] (THF90G329) 089032cd-1590645013.501 apps.actions.list called with reason: fetch-app-actions 
+[05/28/20, 11:20:13:504] info: [API-Q] (THF90G329) 089032cd-1590645013.501 apps.actions.list is ENQUEUED 
+[05/28/20, 11:20:13:648] info: switchDictionary: trying to switch spellchecker {
+  "language": "en"
+} 
+[05/28/20, 11:20:13:649] info: SpellChecker::spellgetLanguageRegionCode: found region supported language {
+  "code": "en"
+} 
+[05/28/20, 11:20:13:650] info: [API-Q] (THF90G329) 089032cd-1590645013.333 team.whatsNew is RESOLVED 
+[05/28/20, 11:20:13:650] info: [API-Q] (THF90G329) noversion-1590645013.497 Flannel users/counts is ACTIVE 
+[05/28/20, 11:20:13:653] info: [API-Q] (THF90G329) 089032cd-1590645013.342 help.issues.list is RESOLVED 
+[05/28/20, 11:20:13:653] info: [API-Q] (THF90G329) noversion-1590645013.495 Flannel users/counts is ACTIVE 
+[05/28/20, 11:20:13:656] info: [API-Q] (THF90G329) 089032cd-1590645013.351 users.channelSections.list is RESOLVED 
+[05/28/20, 11:20:13:657] info: [API-Q] (THF90G329) 089032cd-1590645013.501 apps.actions.list is ACTIVE 
+[05/28/20, 11:20:13:658] info: [API-Q] (THF90G329) 089032cd-1590645013.361 dnd.info is RESOLVED 
+[05/28/20, 11:20:13:659] info: [API-Q] (THF90G329) 089032cd-1590645013.311 promo.banner is RESOLVED 
+[05/28/20, 11:20:13:660] info: [API-Q] (THF90G329) 089032cd-1590645013.366 dnd.teamInfo is RESOLVED 
+[05/28/20, 11:20:13:663] info: SpellChecker::getLanguageRegionCode: Intl returned locale {
+  "locale": "en-GB"
+} 
+[05/28/20, 11:20:13:664] info: SpellChecker::getLanguageRegionCode: return language code with region {
+  "code": "en-gb"
+} 
+[05/28/20, 11:20:13:665] info: download: downloading dictionary for 'en-gb' 
+[05/28/20, 11:20:13:665] info: fetchResourceAsBuffer: downloading {
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-gb/3/en-gb.aff",
+  "cachePolicy": "default"
+} 
+[05/28/20, 11:20:13:668] info: [SOCKET-MANAGER] (THF90G329) Changing from prov_connecting to prov_connected 
+[05/28/20, 11:20:13:668] info: [SOCKET-MANAGER] (THF90G329) will stay in prov_connected state for up to 60000 ms 
+[05/28/20, 11:20:13:673] info: [SOCKET-MANAGER] (THF90G329) Changing from prov_connected to prov_finalize 
+[05/28/20, 11:20:13:674] info: [SOCKET-MANAGER] (THF90G329) will stay in prov_finalize state for up to 10000 ms 
+[05/28/20, 11:20:13:675] info: [SOCKET-MANAGER] (THF90G329) Changing from prov_finalize to prov_finalizing 
+[05/28/20, 11:20:13:675] info: [SOCKET-MANAGER] (THF90G329) will stay in prov_finalizing state for up to 10000 ms 
+[05/28/20, 11:20:13:677] info: [SOCKET-MANAGER] (THF90G329) Changing from prov_finalizing to connected 
+[05/28/20, 11:20:13:678] info: [SOCKET-MANAGER] (THF90G329) will stay in connected state for up to Infinity ms 
+[05/28/20, 11:20:13:679] info: [SOCKET-MANAGER] (THF90G329) Connected to primary region 
+[05/28/20, 11:20:13:685] info: [FLANNEL] (THF90G329) connected and trouble free! Continuing deferred user_subscribe_request call 
+[05/28/20, 11:20:13:749] info: [MESSAGE-HISTORY] (THF90G329) Resetting reachedEnd 
+[05/28/20, 11:20:13:766] info: [PRESENCE_PROMPT] (THF90G329) ignoring prompt due to presence (active) 
+[05/28/20, 11:20:13:769] info: [UNREAD-COUNTS] (THF90G329) Fetching counts 
+[05/28/20, 11:20:13:774] info: [API-Q] (THF90G329) 089032cd-1590645013.769 client.counts called with reason: client-counts-api/fetchClientCounts 
+[05/28/20, 11:20:13:774] info: [API-Q] (THF90G329) 089032cd-1590645013.769 client.counts is ENQUEUED 
+[05/28/20, 11:20:13:775] info: [API-Q] (THF90G329) 089032cd-1590645013.769 client.counts is ACTIVE 
+[05/28/20, 11:20:13:938] info: [FOCUS-EVENT] Client window focused 
+[05/28/20, 11:20:13:968] info: [DND] (THF90G329) Fetched DND info for the following member: UPA3JNC0H 
+[05/28/20, 11:20:13:972] info: [DND] (THF90G329) Checking for changes in DND status for the following members: UPA3JNC0H 
+[05/28/20, 11:20:13:978] info: [DND] (THF90G329) Will check for changes in DND status again in 5 minutes 
+[05/28/20, 11:20:13:996] info: [DND] (THF90G329) Fetched DND info for the following members: UHH1KRLPR 
+[05/28/20, 11:20:13:998] info: [DND] (THF90G329) Checking for changes in DND status for the following members: UPA3JNC0H,UHH1KRLPR 
+[05/28/20, 11:20:13:999] info: [DND] (THF90G329) Will check for changes in DND status again in 5 minutes 
+[05/28/20, 11:20:14:072] info: [HISTORY-FETCH] (THF90G329) Fetching history for message pane: CHGC3HJGN oldest: 1588769214.003200 latest: null 
+[05/28/20, 11:20:14:075] info: [API-Q] (THF90G329) 089032cd-1590645014.072 conversations.history called with reason: message-pane/requestHistory 
+[05/28/20, 11:20:14:076] info: [API-Q] (THF90G329) 089032cd-1590645014.072 conversations.history is ENQUEUED 
+[05/28/20, 11:20:14:076] info: [API-Q] (THF90G329) 089032cd-1590645014.072 conversations.history is ACTIVE 
+[05/28/20, 11:20:14:112] info: [CHECK-UNREADS] (THF90G329) unreadLineVisible updated: true -> false 
+[05/28/20, 11:20:14:191] info: [CHECK-UNREADS] (THF90G329) Checking unreads after window became focused 
+[05/28/20, 11:20:14:191] info: [CHECK-UNREADS] (THF90G329) Not marking CHGC3HJGN because last_read >= latest && channel is read 
+[05/28/20, 11:20:14:223] info: fetchResourceAsBuffer: successfully downloaded {
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-gb/3/en-gb.aff",
+  "status": 200,
+  "ok": true,
+  "redirected": false,
+  "statusText": "",
+  "url": "https://spellcheck.slack-edge.com/dictionaries/en-gb/3/en-gb.aff",
+  "type": "cors"
+} 
+[05/28/20, 11:20:14:224] info: fetchResourceAsBuffer: returning arrayBuffer 
+[05/28/20, 11:20:14:225] info: fetchResourceAsBuffer: downloading {
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-gb/3/en-gb.dic",
+  "cachePolicy": "default"
+} 
+[05/28/20, 11:20:14:227] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:20:14:234] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:20:14:243] info: [API-Q] (THF90G329) 089032cd-1590645013.501 apps.actions.list is RESOLVED 
+[05/28/20, 11:20:14:243] info: fetchResourceAsBuffer: successfully downloaded {
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-gb/3/en-gb.dic",
+  "status": 200,
+  "ok": true,
+  "redirected": false,
+  "statusText": "",
+  "url": "https://spellcheck.slack-edge.com/dictionaries/en-gb/3/en-gb.dic",
+  "type": "cors"
+} 
+[05/28/20, 11:20:14:245] info: [API-Q] (THF90G329) noversion-1590645013.490 Flannel users/info is RESOLVED 
+[05/28/20, 11:20:14:246] info: [API-Q] (THF90G329) noversion-1590645013.487 Flannel users/info is RESOLVED 
+[05/28/20, 11:20:14:248] info: [API-Q] (THF90G329) noversion-1590645013.484 Flannel users/list is RESOLVED 
+[05/28/20, 11:20:14:250] info: [API-Q] (THF90G329) noversion-1590645013.492 Flannel users/counts is RESOLVED 
+[05/28/20, 11:20:14:251] info: [API-Q] (THF90G329) 089032cd-1590645013.769 client.counts is RESOLVED 
+[05/28/20, 11:20:14:252] info: [API-Q] (THF90G329) noversion-1590645013.497 Flannel users/counts is RESOLVED 
+[05/28/20, 11:20:14:253] info: [API-Q] (THF90G329) noversion-1590645013.495 Flannel users/counts is RESOLVED 
+[05/28/20, 11:20:14:351] info: [SERVICE-WORKER] registration success {} 
+[05/28/20, 11:20:14:352] info: [SERVICE-WORKER-STATE] initial installing 
+[05/28/20, 11:20:14:352] info: [SERVICE-WORKER-STATE] change installed 0ms 
+[05/28/20, 11:20:14:353] info: [SERVICE-WORKER-STATE] change activating 
+[05/28/20, 11:20:14:353] info: Store: STORE_ENTERPRISE_ID_PAIR {
+  "enterpriseId": null
+} 
+[05/28/20, 11:20:14:354] info: [UNKNOWN-FETCH-MANAGER] (THF90G329) received _all_actions (1) 
+[05/28/20, 11:20:14:362] info: [UNKNOWN-FETCH-MANAGER] (THF90G329) received UPA3JNC0H,USLACKBOT,UHDQE06NL,U01036WH0CQ,UV76CGDFV,UHH1KRLPR,UHFPS6QQM,U010GKUTWG0,U010T7ACYV9,UHFNBQZJ8 (1) 
+[05/28/20, 11:20:14:387] info: [COUNTS] (THF90G329) Applying counts to channels 
+[05/28/20, 11:20:14:403] info: [COUNTS] (THF90G329) Threads has_unreads:false mention_count:0 
+[05/28/20, 11:20:14:405] info: [COUNTS] (THF90G329) Completed counts processing 
+[05/28/20, 11:20:14:408] info: [SERVICE-WORKER-STATE] change activated 55ms 
+[05/28/20, 11:20:14:548] info: [API-Q] (THF90G329) noversion-1590645014.545 Flannel users/info called with reason: flannel-call:users/info 
+[05/28/20, 11:20:14:548] info: [API-Q] (THF90G329) noversion-1590645014.545 Flannel users/info is ENQUEUED 
+[05/28/20, 11:20:14:549] info: [API-Q] (THF90G329) noversion-1590645014.545 Flannel users/info is ACTIVE 
+[05/28/20, 11:20:14:550] info: [API-Q] (THF90G329) 089032cd-1590645014.072 conversations.history is RESOLVED 
+[05/28/20, 11:20:14:618] info: [PLATFORM-CHANNEL-ACTI] (THF90G329) Not updating count for channel CHGC3HJGN, as count was already set to 0 
+[05/28/20, 11:20:14:625] info: [PINS] (THF90G329) Pins count updated for channel CHGC3HJGN: 3 
+[05/28/20, 11:20:14:627] info: [UNREAD-COUNTS] (THF90G329) Counting unreads in CHGC3HJGN because (1) timestamps added 
+[05/28/20, 11:20:14:628] info: [UNREAD-COUNTS] (THF90G329) Checking unreads in CHGC3HJGN after a new message 
+[05/28/20, 11:20:14:628] info: [CHECK-UNREADS] (THF90G329) Not marking CHGC3HJGN because last_read >= latest && channel is read 
+[05/28/20, 11:20:14:631] info: [API-Q] (THF90G329) noversion-1590645014.628 Flannel channels/membership called with reason: flannel-call:channels/membership 
+[05/28/20, 11:20:14:631] info: [API-Q] (THF90G329) noversion-1590645014.628 Flannel channels/membership is ENQUEUED 
+[05/28/20, 11:20:14:631] info: [API-Q] (THF90G329) noversion-1590645014.628 Flannel channels/membership is ACTIVE 
+[05/28/20, 11:20:14:656] info: [MESSAGE-LIST] (THF90G329) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 14 
+[05/28/20, 11:20:14:667] info: [CHECK-UNREADS] (THF90G329) unreadLineVisible updated: false -> true 
+[05/28/20, 11:20:14:744] info: [PERSIST] (THF90G329) Purged model 
+[05/28/20, 11:20:14:750] info: [PERSIST] Purged persisted models [] 
+[05/28/20, 11:20:14:754] info: [MIN-VERSION] Starting client min-version poll. 
+[05/28/20, 11:20:14:878] info: [API-Q] (THF90G329) noversion-1590645014.545 Flannel users/info is RESOLVED 
+[05/28/20, 11:20:15:026] info: [API-Q] (THF90G329) noversion-1590645014.628 Flannel channels/membership is RESOLVED 
+[05/28/20, 11:20:15:054] info: [DND] (THF90G329) Preparing to fetch DND times for the following members: UHFPS6QQM,U01036WH0CQ,UV76CGDFV,UHDQE06NL,U010T7ACYV9,U010GKUTWG0 
+[05/28/20, 11:20:15:059] info: [API-Q] (THF90G329) 089032cd-1590645015.054 dnd.teamInfo called with reason: getDndTimesForSubscribedMembers:other 
+[05/28/20, 11:20:15:059] info: [API-Q] (THF90G329) 089032cd-1590645015.054 dnd.teamInfo is ENQUEUED 
+[05/28/20, 11:20:15:060] info: [API-Q] (THF90G329) 089032cd-1590645015.054 dnd.teamInfo is ACTIVE 
+[05/28/20, 11:20:15:151] info: [CHECK-UNREADS] (THF90G329) Checking unreads after unread line became visible 
+[05/28/20, 11:20:15:152] info: [CHECK-UNREADS] (THF90G329) Not marking CHGC3HJGN because last_read >= latest && channel is read 
+[05/28/20, 11:20:15:255] info: [PERSIST] (THF90G329) Successfully persisted state 
+[05/28/20, 11:20:15:378] info: [API-Q] (THF90G329) 089032cd-1590645015.054 dnd.teamInfo is RESOLVED 
+[05/28/20, 11:20:15:380] info: [DND] (THF90G329) Fetched DND info for the following members: UHFPS6QQM,U01036WH0CQ,UV76CGDFV,UHDQE06NL,U010T7ACYV9,U010GKUTWG0 
+[05/28/20, 11:20:15:386] info: [DND] (THF90G329) Checking for changes in DND status for the following members: UPA3JNC0H,UHH1KRLPR,UHFPS6QQM,U01036WH0CQ,UV76CGDFV,UHDQE06NL,U010T7ACYV9,U010GKUTWG0 
+[05/28/20, 11:20:15:406] info: [DND] (THF90G329) Will check for changes in DND status again in 5 minutes 
+[05/28/20, 11:20:15:906] info: fetchResourceAsBuffer: returning arrayBuffer 
+[05/28/20, 11:20:15:907] info: dictionaryDownloader: verifying hash 
+[05/28/20, 11:20:16:076] info: SpellChecker::downloadDictionary: Dictionary is ready for  {
+  "language": "en"
+} 
+[05/28/20, 11:20:17:204] info: assignSpellchecker: spellCheckerTable added new checker for 'en' 
+[05/28/20, 11:20:17:205] info: SpellChecker::prepareDictionary: Dictionary buffer for 'en' is loaded into spellchecker 
+[05/28/20, 11:20:17:206] info: switchDictionary: switching dictionary to check spell from 'null' to 'en' 
+[05/28/20, 11:20:17:207] info: SpellChecker::switchDictionary: SpellChecker enabled for language {
+  "language": "en"
+} 
+[05/28/20, 11:20:17:207] info: SpellChecker::enableSpellCheckerLanguageDetector: spellchecker dictionary switched 
+[05/28/20, 11:20:17:234] info: [FOCUS-EVENT] Client window blurred 
+[05/28/20, 11:20:17:385] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:20:17:390] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:20:20:448] info: [FOCUS-EVENT] Client window focused 
+[05/28/20, 11:20:20:473] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:20:20:489] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:20:20:635] info: [CHECK-UNREADS] (THF90G329) Checking unreads after window became focused 
+[05/28/20, 11:20:20:635] info: [CHECK-UNREADS] (THF90G329) Not marking CHGC3HJGN because last_read >= latest && channel is read 
+[05/28/20, 11:20:30:809] info: [FOCUS-EVENT] Client window blurred 
+[05/28/20, 11:20:30:829] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:20:30:849] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:21:04:735] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[05/28/20, 11:21:04:738] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[05/28/20, 11:21:13:829] info: [CHECK-FOR-OLD-IMS] (THF90G329) Within limit: 9 
+[05/28/20, 11:21:20:722] info: [API-Q] (THF90G329) 089032cd-1590645080.715 client.counts called with reason: client-counts-api/fetchClientCounts 
+[05/28/20, 11:21:20:722] info: [API-Q] (THF90G329) 089032cd-1590645080.715 client.counts is ENQUEUED 
+[05/28/20, 11:21:20:723] info: [API-Q] (THF90G329) 089032cd-1590645080.715 client.counts is ACTIVE 
+[05/28/20, 11:21:21:109] info: [API-Q] (THF90G329) 089032cd-1590645080.715 client.counts is RESOLVED 
+[05/28/20, 11:21:21:124] info: [COUNTS] (THF90G329) Applying counts to channels 
+[05/28/20, 11:21:21:144] info: [COUNTS] (THF90G329) Recounted CHGC3HJGN; initial: {"unreadCnt":0,"unreadHighlightCnt":0}; after: {"unreadCnt":0,"unreadHighlightCnt":0} 
+[05/28/20, 11:21:21:145] info: [COUNTS] (THF90G329) Threads has_unreads:false mention_count:0 
+[05/28/20, 11:21:21:150] info: [COUNTS] (THF90G329) Completed counts processing 
+[05/28/20, 11:21:34:759] info: Store: SET_SYSTEM_IDLE active 
+[05/28/20, 11:21:34:768] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[05/28/20, 11:21:38:893] info: [AUTH] Need to re-fetch auth (sc=true, psc=NaN, csc=1590645003, mfc=false, lf=1590645006, mf=1562000400) 
+[05/28/20, 11:21:38:895] info: [AUTH] fetchAuthAndReturnToUrl: auth fetch times: 1590645098893 
+[05/28/20, 11:21:38:895] info: [AUTH] fetchAuthAndReturnToUrl: will return to /client/THF90G329/CHGC3HJGN 
+[05/28/20, 11:21:38:896] info: [AUTH] fetchAuthAndReturnToUrl: fetching credentials with iframe at /auth?app=client&lc=1590645003&return_to=%2Fclient%2FTHF90G329%2FCHGC3HJGN&teams=THF90G329 
+[05/28/20, 11:21:38:915] info: [(THF90G329)] Checking if auth is fresh due to accounts_changed rtm event 
+[05/28/20, 11:21:38:916] info: [RTM] (THF90G329) Processed accounts_changed event in 32.07 
+[05/28/20, 11:21:39:359] info: [AUTH] credentials are ready 
+[05/28/20, 11:21:39:364] info: [AUTH] credentials are ready ({"added":[],"changed":[],"removed":[],"isNoOp":true,"usersChanged":false}) 
+[05/28/20, 11:21:39:366] info: [AUTH] Fetched auth and processing changes without reloading... 
+[05/28/20, 11:21:39:368] info: [LOCAL-CONFIG] ingestIncomingConfig(): processing 557 bytes of data 
+[05/28/20, 11:21:39:371] info: [LOCAL-CONFIG] ingestIncomingConfig(): teams before: THF90G329:UPA3JNC0H, teams now: (no change) 
+[05/28/20, 11:21:39:376] info: [AUTH] Successfully processed auth changes without needing to reload 
+[05/28/20, 11:21:41:219] info: [FOCUS-EVENT] Client window focused 
+[05/28/20, 11:21:41:232] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:21:41:239] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:21:41:340] info: [CHECK-UNREADS] (THF90G329) Checking unreads after window became focused 
+[05/28/20, 11:21:41:341] info: [CHECK-UNREADS] (THF90G329) Not marking CHGC3HJGN because last_read >= latest && channel is read 
+[05/28/20, 11:21:43:177] info: [FOCUS-EVENT] Client window blurred 
+[05/28/20, 11:21:43:187] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:21:43:195] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:21:47:401] info: Store: HANDLE_DEEP_LINK {
+  "causedLaunch": false,
+  "url": "slack://T010W8XM2TW/magic-login/1173560050320-ae7a86469e334dea48e88b82cc710068b9e2d4c6ad6f2932fa23d0a17efb98a8"
+} 
+[05/28/20, 11:21:47:423] info: [[DEEP-LINK]] (THF90G329) handleDeepLinkFromDesktop: received deep link from desktop: {"cmd":"t010w8xm2tw"} 
+[05/28/20, 11:21:47:425] info: [AUTH] fetchAuthAndReturnToUrl: auth fetch times: 1590645098893,1590645107424 
+[05/28/20, 11:21:47:425] info: [AUTH] fetchAuthAndReturnToUrl: will return to /client/T010W8XM2TW 
+[05/28/20, 11:21:47:425] info: [AUTH] fetchAuthAndReturnToUrl: fetching credentials with iframe at /auth?app=client&lc=1590645003&return_to=%2Fclient%2FT010W8XM2TW&teams=THF90G329 
+[05/28/20, 11:21:47:438] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 3,
+  "state": "unloaded"
+} 
+[05/28/20, 11:21:47:769] info: [AUTH] authCookieChanged: starting listening to the event 
+[05/28/20, 11:21:47:770] info: [AUTH] authCookieChanged 0: event happened, re-starting listening to the event, isFetchingAuth=true 
+[05/28/20, 11:21:47:784] info: [AUTH] credentials are ready 
+[05/28/20, 11:21:47:786] info: [AUTH] credentials are ready ({"added":["T010W8XM2TW"],"changed":[],"removed":[],"isNoOp":false,"usersChanged":false}) 
+[05/28/20, 11:21:47:788] info: [AUTH] Fetched auth and processing changes without reloading... 
+[05/28/20, 11:21:47:790] info: [LOCAL-CONFIG] ingestIncomingConfig(): processing 1030 bytes of data 
+[05/28/20, 11:21:47:792] info: [LOCAL-CONFIG] ingestIncomingConfig(): teams before: THF90G329:UPA3JNC0H, teams now: THF90G329:UPA3JNC0H,T010W8XM2TW:U010L2H5LTD 
+[05/28/20, 11:21:47:794] info: [AUTH] Adding workspace T010W8XM2TW / https://bcsiitk.slack.com/ 
+[05/28/20, 11:21:48:372] info: [BOOT] (T010W8XM2TW) Initializing boot 
+[05/28/20, 11:21:48:373] info: [BOOT] (T010W8XM2TW) Minimum supported data version is 1581290339; currently on undefined 
+[05/28/20, 11:21:48:373] info: [BOOT] (T010W8XM2TW) Skipping checking persisted store because if it exists it's out of date 
+[05/28/20, 11:21:48:374] info: [PERSIST] (T010W8XM2TW) Purging persisted model... 
+[05/28/20, 11:21:48:375] info: [BOOT-QUEUE] T010W8XM2TW noversion-1590645107.914 client.boot called with reason: initial-data 
+[05/28/20, 11:21:48:376] info: [BOOT-QUEUE] T010W8XM2TW noversion-1590645107.914 client.boot is ENQUEUED 
+[05/28/20, 11:21:48:377] info: [BOOT-QUEUE] T010W8XM2TW noversion-1590645107.914 client.boot is ACTIVE 
+[05/28/20, 11:21:48:378] info: [BOOT-QUEUE] T010W8XM2TW noversion-1590645107.921 api.features called 
+[05/28/20, 11:21:48:378] info: [BOOT-QUEUE] T010W8XM2TW noversion-1590645107.921 api.features is ENQUEUED 
+[05/28/20, 11:21:48:379] info: [BOOT-QUEUE] T010W8XM2TW noversion-1590645107.923 experiments.getByUser called 
+[05/28/20, 11:21:48:380] info: [BOOT-QUEUE] T010W8XM2TW noversion-1590645107.923 experiments.getByUser is ENQUEUED 
+[05/28/20, 11:21:48:381] info: [BOOT] Couldn't determine boot channel. Falling back to default channel 
+[05/28/20, 11:21:48:521] info: [CHECK-UNREADS] (THF90G329) Checking unreads after workspace became focused 
+[05/28/20, 11:21:48:521] info: [CHECK-UNREADS] (THF90G329) Not marking CHGC3HJGN because attention not on chat (window_not_focused) 
+[05/28/20, 11:21:48:576] info: Store: SYNC Synced 1 workspaces with IDs [THF90G329] 
+[05/28/20, 11:21:48:579] info: Store: SELECTION_CHANGED THF90G329 
+[05/28/20, 11:21:48:580] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 3,
+  "state": "loaded"
+} 
+[05/28/20, 11:21:48:580] info: Store: UPSERT_WEB_CONTENTS {
+  "history": "[REDACTED]",
+  "id": 3,
+  "type": "auth"
+} 
+[05/28/20, 11:21:48:581] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 3,
+  "state": "page-closed"
+} 
+[05/28/20, 11:21:48:582] info: Store: REMOVE_WEB_CONTENTS {
+  "id": 3
+} 
+[05/28/20, 11:21:48:591] info: [PERSIST] (T010W8XM2TW) Purged model 
+[05/28/20, 11:21:48:692] info: [BOOT-QUEUE] T010W8XM2TW noversion-1590645107.914 client.boot is RESOLVED 
+[05/28/20, 11:21:48:693] info: [BOOT-QUEUE] T010W8XM2TW noversion-1590645107.921 api.features is ACTIVE 
+[05/28/20, 11:21:48:827] info: [FOCUS-EVENT] Client window focused 
+[05/28/20, 11:21:48:957] info: [CHECK-UNREADS] (THF90G329) Checking unreads after window became focused 
+[05/28/20, 11:21:48:958] info: [CHECK-UNREADS] (THF90G329) Not marking CHGC3HJGN because last_read >= latest && channel is read 
+[05/28/20, 11:21:48:966] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:21:48:979] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:21:48:984] info: [BOOT-QUEUE] T010W8XM2TW noversion-1590645107.921 api.features is RESOLVED 
+[05/28/20, 11:21:48:985] info: [BOOT-QUEUE] T010W8XM2TW noversion-1590645107.923 experiments.getByUser is ACTIVE 
+[05/28/20, 11:21:49:272] info: [BOOT-QUEUE] T010W8XM2TW noversion-1590645107.923 experiments.getByUser is RESOLVED 
+[05/28/20, 11:21:49:864] info: [EMOJI_TRANSLATION] Emoji translations already loaded for en-GB 
+[05/28/20, 11:21:49:865] info: [BOOT] (T010W8XM2TW) Booting cold 
+[05/28/20, 11:21:49:883] info: [DESKTOP-MIDDLEWARE] (T010W8XM2TW) Forwarding redux payload to desktop ["theme","notificationPrefs","featureFlags","bootConfig","unreads","locale"] 
+[05/28/20, 11:21:49:886] info: [BOOT] (T010W8XM2TW) Dispatching boot data 
+[05/28/20, 11:21:49:889] info: [DESKTOP-MIDDLEWARE] (T010W8XM2TW) Forwarding redux payload to desktop ["featureFlags","version"] 
+[05/28/20, 11:21:49:891] info: [DESKTOP-MIDDLEWARE] (T010W8XM2TW) Forwarding redux payload to desktop ["theme"] 
+[05/28/20, 11:21:49:910] info: [DESKTOP-MIDDLEWARE] (T010W8XM2TW) Forwarding redux payload to desktop ["theme","notificationPrefs","unreads"] 
+[05/28/20, 11:21:49:992] info: [EMOJI_TRANSLATION] Emoji translations already loaded for en-GB 
+[05/28/20, 11:21:49:995] info: [API-Q] (T010W8XM2TW) 089032cd-1590645109.992 emoji.list called with reason: loadEmoji 
+[05/28/20, 11:21:49:996] info: [API-Q] (T010W8XM2TW) 089032cd-1590645109.992 emoji.list is ENQUEUED 
+[05/28/20, 11:21:49:996] info: [API-Q] (T010W8XM2TW) 089032cd-1590645109.992 emoji.list is ACTIVE 
+[05/28/20, 11:21:49:997] info: [API-Q] (T010W8XM2TW) 089032cd-1590645109.996 commands.list called with reason: loadSlashCommands 
+[05/28/20, 11:21:49:998] info: [API-Q] (T010W8XM2TW) 089032cd-1590645109.996 commands.list is ENQUEUED 
+[05/28/20, 11:21:50:013] info: [PLATFORM-CHANNEL-ACTI] (T010W8XM2TW) setting count for channel C010K9AJKQB to 0, and marking channel as stale. 
+[05/28/20, 11:21:50:015] info: [BOOT] (T010W8XM2TW) Boot complete 
+[05/28/20, 11:21:50:017] info: [DESKTOP-SIDE-EFFECT] (T010W8XM2TW) Reacting to  {"type":"[30] Set a value that represents whether we are currently in the boot phase","payload":false,"error":false} 
+[05/28/20, 11:21:50:082] info: [DESKTOP-SIDE-EFFECT] (T010W8XM2TW) Team T010W8XM2TW booted, creating delegate 
+[05/28/20, 11:21:50:083] info: Exposing workspace desktop delegate for  T010W8XM2TW 
+[05/28/20, 11:21:50:083] info: [DESKTOP-SIDE-EFFECT] (THF90G329) Attempted boot for all workspaces, signaling desktop 
+[05/28/20, 11:21:50:084] info: postLoadTaskSetup: loading spellchecker 
+[05/28/20, 11:21:50:084] info: [BOOT] (T010W8XM2TW) Connecting to socket 
+[05/28/20, 11:21:50:084] info: [SOCKET-MANAGER] (T010W8XM2TW) Changing from never_connected to prov_connect 
+[05/28/20, 11:21:50:084] info: [SOCKET-MANAGER] (T010W8XM2TW) will stay in prov_connect state for up to 10000 ms 
+[05/28/20, 11:21:50:087] info: [SOCKET-MANAGER] (T010W8XM2TW) Changing from prov_connect to prov_connecting 
+[05/28/20, 11:21:50:087] info: [SOCKET-MANAGER] (T010W8XM2TW) will stay in prov_connecting state for up to 35000 ms 
+[05/28/20, 11:21:50:089] info: [SWITCH-TO-CHANNEL] (T010W8XM2TW) Switching to C010K9AJKQB at end 
+[05/28/20, 11:21:50:214] error: [DESKTOP] 'desktop.stats.performance.disable' is missing or not a function 
+[05/28/20, 11:21:50:220] info: [HISTORY-NAVIGATION] Adding route to the history stack 
+[05/28/20, 11:21:50:237] error: [DESKTOP] 'desktop.stats.performance.timeSpentInPreload' is missing or not a function 
+[05/28/20, 11:21:50:239] info: [DRAFTS] (T010W8XM2TW) There are no channels with drafts 
+[05/28/20, 11:21:50:241] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.239 apps.getSidebarPrompts called with reason: initializeAppSuggestionLinksData 
+[05/28/20, 11:21:50:241] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.239 apps.getSidebarPrompts is ENQUEUED 
+[05/28/20, 11:21:50:241] info: [API-Q] (T010W8XM2TW) 089032cd-1590645109.996 commands.list is ACTIVE 
+[05/28/20, 11:21:50:289] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.288 api.getFlannelHttpUrl called with reason: client-needs-valid-flannel-url 
+[05/28/20, 11:21:50:290] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.288 api.getFlannelHttpUrl is ENQUEUED 
+[05/28/20, 11:21:50:290] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.288 api.getFlannelHttpUrl is ACTIVE 
+[05/28/20, 11:21:50:589] info: [AUTH] Successfully processed auth changes without needing to reload 
+[05/28/20, 11:21:50:589] info: [AUTH] authCookieChanged 0: starting to ensure credentials 
+[05/28/20, 11:21:50:590] info: [AUTH] Need to re-fetch auth (sc=true, psc=1590645098, csc=1590645107, mfc=false, lf=1590645107, mf=1562000400) 
+[05/28/20, 11:21:50:590] info: [AUTH] fetchAuthAndReturnToUrl: auth fetch times: 1590645110590 
+[05/28/20, 11:21:50:591] info: [AUTH] fetchAuthAndReturnToUrl: will return to /client/T010W8XM2TW/C010K9AJKQB 
+[05/28/20, 11:21:50:591] info: [AUTH] fetchAuthAndReturnToUrl: fetching credentials with iframe at /auth?app=client&lc=1590645003&return_to=%2Fclient%2FT010W8XM2TW%2FC010K9AJKQB&teams=THF90G329 
+[05/28/20, 11:21:50:593] info: toggleAutoSpellcheck: run spellchecker with language detector 
+[05/28/20, 11:21:50:593] warn: SpellChecker::enableSpellCheckerLanguageDetector: Spellchecker is already enabled 
+[05/28/20, 11:21:50:646] info: [CHECK-UNREADS] (T010W8XM2TW) unreadLineVisible updated: false -> true 
+[05/28/20, 11:21:50:685] info: [CHECK-UNREADS] (THF90G329) Checking unreads after workspace became focused 
+[05/28/20, 11:21:50:685] info: [CHECK-UNREADS] (THF90G329) Not marking CHGC3HJGN because attention not on chat (workspace_not_focused) 
+[05/28/20, 11:21:50:686] info: [CHECK-UNREADS] (T010W8XM2TW) Checking unreads after workspace became focused 
+[05/28/20, 11:21:50:686] info: [CHECK-UNREADS] (T010W8XM2TW) Not marking C010K9AJKQB because last_read >= latest && channel is read 
+[05/28/20, 11:21:50:706] info: Store: REDUX_UPDATE_FROM_WEBAPP (T010W8XM2TW) Changed keys [theme,notificationPrefs,featureFlags,bootConfig,unreads,locale] 
+[05/28/20, 11:21:50:707] info: Store: REDUX_UPDATE_FROM_WEBAPP (T010W8XM2TW) Changed keys [featureFlags,version] 
+[05/28/20, 11:21:50:707] info: Store: REDUX_UPDATE_FROM_WEBAPP (T010W8XM2TW) Changed keys [theme] 
+[05/28/20, 11:21:50:708] info: Store: REDUX_UPDATE_FROM_WEBAPP (T010W8XM2TW) Changed keys [theme,notificationPrefs,unreads] 
+[05/28/20, 11:21:50:708] info: Store: SYNC Synced 2 workspaces with IDs [THF90G329,T010W8XM2TW] 
+[05/28/20, 11:21:50:709] info: Store: SELECTION_CHANGED THF90G329 
+[05/28/20, 11:21:50:710] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "webapp-loaded"
+} 
+[05/28/20, 11:21:50:719] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:21:50:731] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:21:50:737] info: [API-Q] (T010W8XM2TW) 089032cd-1590645109.992 emoji.list is RESOLVED 
+[05/28/20, 11:21:50:737] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.239 apps.getSidebarPrompts is ACTIVE 
+[05/28/20, 11:21:50:740] info: [API-Q] (T010W8XM2TW) 089032cd-1590645109.996 commands.list is RESOLVED 
+[05/28/20, 11:21:50:741] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.288 api.getFlannelHttpUrl is RESOLVED 
+[05/28/20, 11:21:50:741] info: Store: SELECTION_CHANGED T010W8XM2TW 
+[05/28/20, 11:21:50:743] info: [UNKNOWN-FETCH-MANAGER] (T010W8XM2TW) requesting USLACKBOT,U010L2H5LTD,U010ZN3EAMV,U010X2P8H4Y,U010WNKEQ13,U012S451HDF,U012S452W3T,U012DMAR2TD,U010X8A9H6Y,U010X349C0G (1) 
+[05/28/20, 11:21:50:747] info: [FLANNEL] (T010W8XM2TW) received a user_subscribe_request call while we are not connected; deferring 
+[05/28/20, 11:21:50:753] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.749 promo.banner called with reason: fetch-megaphone-notification-data 
+[05/28/20, 11:21:50:753] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.749 promo.banner is ENQUEUED 
+[05/28/20, 11:21:50:753] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.749 promo.banner is ACTIVE 
+[05/28/20, 11:21:50:759] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.756 team.whatsNew called with reason: boot-team 
+[05/28/20, 11:21:50:759] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.756 team.whatsNew is ENQUEUED 
+[05/28/20, 11:21:50:760] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.756 team.whatsNew is ACTIVE 
+[05/28/20, 11:21:50:763] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.760 help.issues.list called with reason: fetchAndUpsertHelpIssues 
+[05/28/20, 11:21:50:763] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.760 help.issues.list is ENQUEUED 
+[05/28/20, 11:21:50:764] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.760 help.issues.list is ACTIVE 
+[05/28/20, 11:21:50:767] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.764 users.channelSections.list called with reason: conditional-fetch-manager 
+[05/28/20, 11:21:50:767] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.764 users.channelSections.list is ENQUEUED 
+[05/28/20, 11:21:50:767] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.764 users.channelSections.list is ACTIVE 
+[05/28/20, 11:21:50:814] info: Store: STORE_ENTERPRISE_ID_PAIR {
+  "enterpriseId": null
+} 
+[05/28/20, 11:21:50:816] info: [EMOJI_STORE] (T010W8XM2TW) Adding custom emoji to T010W8XM2TW at 1560987000.000000 
+[05/28/20, 11:21:50:836] info: [API-Q] (T010W8XM2TW) noversion-1590645110.833 Flannel users/list called with reason: flannel-call:users/list 
+[05/28/20, 11:21:50:837] info: [API-Q] (T010W8XM2TW) noversion-1590645110.833 Flannel users/list is ENQUEUED 
+[05/28/20, 11:21:50:837] info: [API-Q] (T010W8XM2TW) noversion-1590645110.833 Flannel users/list is ACTIVE 
+[05/28/20, 11:21:50:840] info: [API-Q] (T010W8XM2TW) noversion-1590645110.837 Flannel users/info called with reason: flannel-call:users/info 
+[05/28/20, 11:21:50:840] info: [API-Q] (T010W8XM2TW) noversion-1590645110.837 Flannel users/info is ENQUEUED 
+[05/28/20, 11:21:50:840] info: [API-Q] (T010W8XM2TW) noversion-1590645110.837 Flannel users/info is ACTIVE 
+[05/28/20, 11:21:50:843] info: [API-Q] (T010W8XM2TW) noversion-1590645110.840 Flannel users/info called with reason: flannel-call:users/info 
+[05/28/20, 11:21:50:843] info: [API-Q] (T010W8XM2TW) noversion-1590645110.840 Flannel users/info is ENQUEUED 
+[05/28/20, 11:21:50:844] info: [API-Q] (T010W8XM2TW) noversion-1590645110.840 Flannel users/info is ACTIVE 
+[05/28/20, 11:21:50:846] info: [API-Q] (T010W8XM2TW) noversion-1590645110.843 Flannel users/counts called with reason: flannel-call:users/counts 
+[05/28/20, 11:21:50:846] info: [API-Q] (T010W8XM2TW) noversion-1590645110.843 Flannel users/counts is ENQUEUED 
+[05/28/20, 11:21:50:847] info: [API-Q] (T010W8XM2TW) noversion-1590645110.843 Flannel users/counts is ACTIVE 
+[05/28/20, 11:21:50:849] info: [API-Q] (T010W8XM2TW) noversion-1590645110.846 Flannel users/counts called with reason: flannel-call:users/counts 
+[05/28/20, 11:21:50:849] info: [API-Q] (T010W8XM2TW) noversion-1590645110.846 Flannel users/counts is ENQUEUED 
+[05/28/20, 11:21:50:850] info: [API-Q] (T010W8XM2TW) noversion-1590645110.846 Flannel users/counts is ACTIVE 
+[05/28/20, 11:21:50:850] info: [UNKNOWN-FETCH-MANAGER] (T010W8XM2TW) requesting _all_actions (1) 
+[05/28/20, 11:21:50:854] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.850 apps.actions.list called with reason: fetch-app-actions 
+[05/28/20, 11:21:50:855] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.850 apps.actions.list is ENQUEUED 
+[05/28/20, 11:21:50:917] info: [SOCKET-MANAGER] (T010W8XM2TW) Changing from prov_connecting to prov_connected 
+[05/28/20, 11:21:50:917] info: [SOCKET-MANAGER] (T010W8XM2TW) will stay in prov_connected state for up to 60000 ms 
+[05/28/20, 11:21:50:926] info: [SOCKET-MANAGER] (T010W8XM2TW) Changing from prov_connected to prov_finalize 
+[05/28/20, 11:21:50:926] info: [SOCKET-MANAGER] (T010W8XM2TW) will stay in prov_finalize state for up to 10000 ms 
+[05/28/20, 11:21:50:928] info: [SOCKET-MANAGER] (T010W8XM2TW) Changing from prov_finalize to prov_finalizing 
+[05/28/20, 11:21:50:929] info: [SOCKET-MANAGER] (T010W8XM2TW) will stay in prov_finalizing state for up to 10000 ms 
+[05/28/20, 11:21:50:931] info: [SOCKET-MANAGER] (T010W8XM2TW) Changing from prov_finalizing to connected 
+[05/28/20, 11:21:50:931] info: [SOCKET-MANAGER] (T010W8XM2TW) will stay in connected state for up to Infinity ms 
+[05/28/20, 11:21:50:933] info: [SOCKET-MANAGER] (T010W8XM2TW) Connected to primary region 
+[05/28/20, 11:21:50:941] info: [FLANNEL] (T010W8XM2TW) connected and trouble free! Continuing deferred user_subscribe_request call 
+[05/28/20, 11:21:50:950] info: [MESSAGE-HISTORY] (T010W8XM2TW) Resetting reachedEnd 
+[05/28/20, 11:21:50:953] info: [PRESENCE_PROMPT] (T010W8XM2TW) ignoring prompt due to presence (active) 
+[05/28/20, 11:21:50:956] info: [UNREAD-COUNTS] (T010W8XM2TW) Fetching counts 
+[05/28/20, 11:21:50:959] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.956 client.counts called with reason: client-counts-api/fetchClientCounts 
+[05/28/20, 11:21:50:959] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.956 client.counts is ENQUEUED 
+[05/28/20, 11:21:50:976] info: [HISTORY-FETCH] (T010W8XM2TW) Fetching history for message pane: C010K9AJKQB oldest: 1588338992.001700 latest: null 
+[05/28/20, 11:21:50:978] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.976 conversations.history called with reason: message-pane/requestHistory 
+[05/28/20, 11:21:50:978] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.976 conversations.history is ENQUEUED 
+[05/28/20, 11:21:50:982] info: [CHECK-UNREADS] (T010W8XM2TW) unreadLineVisible updated: true -> false 
+[05/28/20, 11:21:51:014] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.756 team.whatsNew is RESOLVED 
+[05/28/20, 11:21:51:015] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.850 apps.actions.list is ACTIVE 
+[05/28/20, 11:21:51:015] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.760 help.issues.list is RESOLVED 
+[05/28/20, 11:21:51:016] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.956 client.counts is ACTIVE 
+[05/28/20, 11:21:51:017] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.764 users.channelSections.list is RESOLVED 
+[05/28/20, 11:21:51:017] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.976 conversations.history is ACTIVE 
+[05/28/20, 11:21:51:045] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.749 promo.banner is RESOLVED 
+[05/28/20, 11:21:51:046] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.239 apps.getSidebarPrompts is RESOLVED 
+[05/28/20, 11:21:51:055] info: [DND] (T010W8XM2TW) Preparing to fetch DND times for the following members: U010L2H5LTD,U010WNKEQ13 
+[05/28/20, 11:21:51:058] info: [API-Q] (T010W8XM2TW) 089032cd-1590645111.055 dnd.info called with reason: getDndTimesForSubscribedMembers 
+[05/28/20, 11:21:51:058] info: [API-Q] (T010W8XM2TW) 089032cd-1590645111.055 dnd.info is ENQUEUED 
+[05/28/20, 11:21:51:059] info: [API-Q] (T010W8XM2TW) 089032cd-1590645111.055 dnd.info is ACTIVE 
+[05/28/20, 11:21:51:064] info: [API-Q] (T010W8XM2TW) 089032cd-1590645111.059 dnd.teamInfo called with reason: getDndTimesForSubscribedMembers:self 
+[05/28/20, 11:21:51:064] info: [API-Q] (T010W8XM2TW) 089032cd-1590645111.059 dnd.teamInfo is ENQUEUED 
+[05/28/20, 11:21:51:065] info: [API-Q] (T010W8XM2TW) 089032cd-1590645111.059 dnd.teamInfo is ACTIVE 
+[05/28/20, 11:21:51:065] info: [AUTH] credentials are ready 
+[05/28/20, 11:21:51:188] info: [AUTH] credentials are ready ({"added":[],"changed":[],"removed":[],"isNoOp":true,"usersChanged":false}) 
+[05/28/20, 11:21:51:188] info: [AUTH] Fetched auth and processing changes without reloading... 
+[05/28/20, 11:21:51:188] info: [LOCAL-CONFIG] ingestIncomingConfig(): processing 1030 bytes of data 
+[05/28/20, 11:21:51:189] info: [LOCAL-CONFIG] ingestIncomingConfig(): teams before: THF90G329:UPA3JNC0H,T010W8XM2TW:U010L2H5LTD, teams now: (no change) 
+[05/28/20, 11:21:51:189] info: [AUTH] Successfully processed auth changes without needing to reload 
+[05/28/20, 11:21:51:189] info: [AUTH] authCookieChanged 0: ensureCredentialsAreFresh completed 
+[05/28/20, 11:21:51:255] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.850 apps.actions.list is RESOLVED 
+[05/28/20, 11:21:51:256] info: [UNKNOWN-FETCH-MANAGER] (T010W8XM2TW) received _all_actions (1) 
+[05/28/20, 11:21:51:264] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.956 client.counts is RESOLVED 
+[05/28/20, 11:21:51:270] info: [COUNTS] (T010W8XM2TW) Applying counts to channels 
+[05/28/20, 11:21:51:280] info: [COUNTS] (T010W8XM2TW) Threads has_unreads:false mention_count:0 
+[05/28/20, 11:21:51:282] info: [COUNTS] (T010W8XM2TW) Completed counts processing 
+[05/28/20, 11:21:51:367] info: [API-Q] (T010W8XM2TW) 089032cd-1590645110.976 conversations.history is RESOLVED 
+[05/28/20, 11:21:51:369] info: [API-Q] (T010W8XM2TW) noversion-1590645110.846 Flannel users/counts is RESOLVED 
+[05/28/20, 11:21:51:371] info: [API-Q] (T010W8XM2TW) noversion-1590645110.840 Flannel users/info is RESOLVED 
+[05/28/20, 11:21:51:372] info: [API-Q] (T010W8XM2TW) noversion-1590645110.843 Flannel users/counts is RESOLVED 
+[05/28/20, 11:21:51:374] info: [API-Q] (T010W8XM2TW) 089032cd-1590645111.055 dnd.info is RESOLVED 
+[05/28/20, 11:21:51:375] info: [API-Q] (T010W8XM2TW) noversion-1590645110.837 Flannel users/info is RESOLVED 
+[05/28/20, 11:21:51:376] info: [API-Q] (T010W8XM2TW) 089032cd-1590645111.059 dnd.teamInfo is RESOLVED 
+[05/28/20, 11:21:51:378] info: [API-Q] (T010W8XM2TW) noversion-1590645110.833 Flannel users/list is RESOLVED 
+[05/28/20, 11:21:51:393] info: [PLATFORM-CHANNEL-ACTI] (T010W8XM2TW) Not updating count for channel C010K9AJKQB, as count was already set to 0 
+[05/28/20, 11:21:51:401] info: [PINS] (T010W8XM2TW) Pins count updated for channel C010K9AJKQB: 1 
+[05/28/20, 11:21:51:414] info: [DND] (T010W8XM2TW) Fetched DND info for the following member: U010L2H5LTD 
+[05/28/20, 11:21:51:419] info: [DND] (T010W8XM2TW) Checking for changes in DND status for the following members: U010L2H5LTD 
+[05/28/20, 11:21:51:422] info: [DND] (T010W8XM2TW) Will check for changes in DND status again in 5 minutes 
+[05/28/20, 11:21:51:423] info: [UNKNOWN-FETCH-MANAGER] (T010W8XM2TW) received USLACKBOT,U010L2H5LTD,U010ZN3EAMV,U010X2P8H4Y,U010WNKEQ13,U012S451HDF,U012S452W3T,U012DMAR2TD,U010X8A9H6Y,U010X349C0G (1) 
+[05/28/20, 11:21:51:431] info: [DND] (T010W8XM2TW) Fetched DND info for the following members: U010WNKEQ13 
+[05/28/20, 11:21:51:433] info: [DND] (T010W8XM2TW) Checking for changes in DND status for the following members: U010L2H5LTD,U010WNKEQ13 
+[05/28/20, 11:21:51:435] info: [DND] (T010W8XM2TW) Will check for changes in DND status again in 5 minutes 
+[05/28/20, 11:21:51:487] info: [MESSAGE-LIST] (T010W8XM2TW) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 6 
+[05/28/20, 11:21:51:505] info: [CHECK-UNREADS] (T010W8XM2TW) unreadLineVisible updated: false -> true 
+[05/28/20, 11:21:51:653] info: [API-Q] (T010W8XM2TW) noversion-1590645111.650 Flannel channels/membership called with reason: flannel-call:channels/membership 
+[05/28/20, 11:21:51:653] info: [API-Q] (T010W8XM2TW) noversion-1590645111.650 Flannel channels/membership is ENQUEUED 
+[05/28/20, 11:21:51:654] info: [API-Q] (T010W8XM2TW) noversion-1590645111.650 Flannel channels/membership is ACTIVE 
+[05/28/20, 11:21:51:723] info: [API-Q] (T010W8XM2TW) noversion-1590645111.650 Flannel channels/membership is RESOLVED 
+[05/28/20, 11:21:51:770] info: [API-Q] (T010W8XM2TW) noversion-1590645111.768 Flannel users/info called with reason: flannel-call:users/info 
+[05/28/20, 11:21:51:771] info: [API-Q] (T010W8XM2TW) noversion-1590645111.768 Flannel users/info is ENQUEUED 
+[05/28/20, 11:21:51:771] info: [API-Q] (T010W8XM2TW) noversion-1590645111.768 Flannel users/info is ACTIVE 
+[05/28/20, 11:21:51:814] info: [API-Q] (T010W8XM2TW) noversion-1590645111.768 Flannel users/info is RESOLVED 
+[05/28/20, 11:21:51:893] info: [CHECK-UNREADS] (T010W8XM2TW) Checking unreads after unread line became visible 
+[05/28/20, 11:21:51:893] info: [CHECK-UNREADS] (T010W8XM2TW) Not marking C010K9AJKQB because last_read >= latest && channel is read 
+[05/28/20, 11:21:52:015] info: [DND] (T010W8XM2TW) Preparing to fetch DND times for the following members: U010X2P8H4Y,U012DMAR2TD,U012S452W3T 
+[05/28/20, 11:21:52:018] info: [API-Q] (T010W8XM2TW) 089032cd-1590645112.015 dnd.teamInfo called with reason: getDndTimesForSubscribedMembers:other 
+[05/28/20, 11:21:52:018] info: [API-Q] (T010W8XM2TW) 089032cd-1590645112.015 dnd.teamInfo is ENQUEUED 
+[05/28/20, 11:21:52:019] info: [API-Q] (T010W8XM2TW) 089032cd-1590645112.015 dnd.teamInfo is ACTIVE 
+[05/28/20, 11:21:52:304] info: [API-Q] (T010W8XM2TW) 089032cd-1590645112.015 dnd.teamInfo is RESOLVED 
+[05/28/20, 11:21:52:306] info: [DND] (T010W8XM2TW) Fetched DND info for the following members: U010X2P8H4Y,U012DMAR2TD,U012S452W3T 
+[05/28/20, 11:21:52:313] info: [DND] (T010W8XM2TW) Checking for changes in DND status for the following members: U010L2H5LTD,U010WNKEQ13,U010X2P8H4Y,U012DMAR2TD,U012S452W3T 
+[05/28/20, 11:21:52:325] info: [DND] (T010W8XM2TW) Will check for changes in DND status again in 5 minutes 
+[05/28/20, 11:21:52:484] info: [FOCUS-EVENT] Client window blurred 
+[05/28/20, 11:21:53:691] info: [FOCUS-EVENT] Client window focused 
+[05/28/20, 11:21:53:946] info: [CHECK-UNREADS] (T010W8XM2TW) Checking unreads after window became focused 
+[05/28/20, 11:21:53:947] info: [CHECK-UNREADS] (T010W8XM2TW) Not marking C010K9AJKQB because last_read >= latest && channel is read 
+[05/28/20, 11:21:57:244] info: [FOCUS-EVENT] Client window blurred 
+[05/28/20, 11:21:57:279] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:21:57:297] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:22:20:713] info: [RTM] (T010W8XM2TW) Processed presence_change event in 28.24 
+[05/28/20, 11:22:27:586] info: Store: HANDLE_DEEP_LINK {
+  "causedLaunch": false,
+  "url": "slack://TFQ1AMH0C/magic-login/1134981801719-38ec3e708a74f4fa36d4a73ec227d2d285aa1073a67ad943e93e6599a4f0bd15"
+} 
+[05/28/20, 11:22:27:587] info: [[DEEP-LINK]] (T010W8XM2TW) handleDeepLinkFromDesktop: received deep link from desktop: {"cmd":"tfq1amh0c"} 
+[05/28/20, 11:22:27:588] info: [AUTH] fetchAuthAndReturnToUrl: auth fetch times: 1590645147576 
+[05/28/20, 11:22:27:588] info: [AUTH] fetchAuthAndReturnToUrl: will return to /client/TFQ1AMH0C 
+[05/28/20, 11:22:27:588] info: [AUTH] fetchAuthAndReturnToUrl: fetching credentials with iframe at /auth?app=client&lc=1590645107&return_to=%2Fclient%2FTFQ1AMH0C&teams=THF90G329 
+[05/28/20, 11:22:27:595] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 4,
+  "state": "unloaded"
+} 
+[05/28/20, 11:22:27:883] info: [AUTH] authCookieChanged 1: event happened, re-starting listening to the event, isFetchingAuth=true 
+[05/28/20, 11:22:27:889] info: [AUTH] credentials are ready 
+[05/28/20, 11:22:27:890] info: [AUTH] credentials are ready ({"added":[],"changed":[],"removed":[],"isNoOp":true,"usersChanged":false}) 
+[05/28/20, 11:22:27:892] info: [AUTH] Fetched auth and processing changes without reloading... 
+[05/28/20, 11:22:27:892] info: [LOCAL-CONFIG] ingestIncomingConfig(): processing 1030 bytes of data 
+[05/28/20, 11:22:27:893] info: [LOCAL-CONFIG] ingestIncomingConfig(): teams before: THF90G329:UPA3JNC0H,T010W8XM2TW:U010L2H5LTD, teams now: (no change) 
+[05/28/20, 11:22:27:899] warn: ROUTES navigation prevented by promise rejection {"error":"Cannot read property 'getState' of undefined"} 
+[05/28/20, 11:22:27:899] info: [AUTH] Successfully processed auth changes without needing to reload 
+[05/28/20, 11:22:27:900] info: [AUTH] authCookieChanged 1: starting to ensure credentials 
+[05/28/20, 11:22:27:900] info: [AUTH] Need to re-fetch auth (sc=true, psc=1590645138, csc=1590645147, mfc=false, lf=1590645147, mf=1562000400) 
+[05/28/20, 11:22:27:901] info: [AUTH] fetchAuthAndReturnToUrl: auth fetch times: 1590645147900 
+[05/28/20, 11:22:27:901] info: [AUTH] fetchAuthAndReturnToUrl: will return to /client/T010W8XM2TW/C010K9AJKQB 
+[05/28/20, 11:22:27:901] info: [AUTH] fetchAuthAndReturnToUrl: fetching credentials with iframe at /auth?app=client&lc=1590645107&return_to=%2Fclient%2FT010W8XM2TW%2FC010K9AJKQB&teams=THF90G329 
+[05/28/20, 11:22:27:944] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 4,
+  "state": "loaded"
+} 
+[05/28/20, 11:22:27:954] info: Store: UPSERT_WEB_CONTENTS {
+  "history": "[REDACTED]",
+  "id": 4,
+  "type": "auth"
+} 
+[05/28/20, 11:22:27:960] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 4,
+  "state": "page-closed"
+} 
+[05/28/20, 11:22:27:963] info: Store: REMOVE_WEB_CONTENTS {
+  "id": 4
+} 
+[05/28/20, 11:22:28:201] info: [AUTH] credentials are ready 
+[05/28/20, 11:22:28:204] info: [AUTH] credentials are ready ({"added":["TFQ1AMH0C"],"changed":[],"removed":[],"isNoOp":false,"usersChanged":false}) 
+[05/28/20, 11:22:28:205] info: [AUTH] Fetched auth and processing changes without reloading... 
+[05/28/20, 11:22:28:206] info: [LOCAL-CONFIG] ingestIncomingConfig(): processing 1504 bytes of data 
+[05/28/20, 11:22:28:207] info: [LOCAL-CONFIG] ingestIncomingConfig(): teams before: THF90G329:UPA3JNC0H,T010W8XM2TW:U010L2H5LTD, teams now: THF90G329:UPA3JNC0H,T010W8XM2TW:U010L2H5LTD,TFQ1AMH0C:U013HM0077X 
+[05/28/20, 11:22:28:209] info: [AUTH] Adding workspace TFQ1AMH0C / https://humanoidofficial.slack.com/ 
+[05/28/20, 11:22:28:395] info: [BOOT] (TFQ1AMH0C) Initializing boot 
+[05/28/20, 11:22:28:395] info: [BOOT] (TFQ1AMH0C) Minimum supported data version is 1581290339; currently on undefined 
+[05/28/20, 11:22:28:396] info: [BOOT] (TFQ1AMH0C) Skipping checking persisted store because if it exists it's out of date 
+[05/28/20, 11:22:28:396] info: [PERSIST] (TFQ1AMH0C) Purging persisted model... 
+[05/28/20, 11:22:28:396] info: [BOOT-QUEUE] TFQ1AMH0C noversion-1590645148.310 client.boot called with reason: initial-data 
+[05/28/20, 11:22:28:396] info: [BOOT-QUEUE] TFQ1AMH0C noversion-1590645148.310 client.boot is ENQUEUED 
+[05/28/20, 11:22:28:397] info: [BOOT-QUEUE] TFQ1AMH0C noversion-1590645148.310 client.boot is ACTIVE 
+[05/28/20, 11:22:28:397] info: [BOOT-QUEUE] TFQ1AMH0C noversion-1590645148.317 api.features called 
+[05/28/20, 11:22:28:397] info: [BOOT-QUEUE] TFQ1AMH0C noversion-1590645148.317 api.features is ENQUEUED 
+[05/28/20, 11:22:28:397] info: [BOOT-QUEUE] TFQ1AMH0C noversion-1590645148.318 experiments.getByUser called 
+[05/28/20, 11:22:28:398] info: [BOOT-QUEUE] TFQ1AMH0C noversion-1590645148.318 experiments.getByUser is ENQUEUED 
+[05/28/20, 11:22:28:398] info: [BOOT] Couldn't determine boot channel. Falling back to default channel 
+[05/28/20, 11:22:28:399] info: [CHECK-UNREADS] (T010W8XM2TW) Checking unreads after workspace became focused 
+[05/28/20, 11:22:28:400] info: [CHECK-UNREADS] (T010W8XM2TW) Not marking C010K9AJKQB because attention not on chat (window_not_focused) 
+[05/28/20, 11:22:28:400] info: Store: SYNC Synced 2 workspaces with IDs [THF90G329,T010W8XM2TW] 
+[05/28/20, 11:22:28:400] info: [PERSIST] (TFQ1AMH0C) Purged model 
+[05/28/20, 11:22:28:401] info: Store: SELECTION_CHANGED T010W8XM2TW 
+[05/28/20, 11:22:28:731] info: [BOOT-QUEUE] TFQ1AMH0C noversion-1590645148.310 client.boot is RESOLVED 
+[05/28/20, 11:22:28:732] info: [BOOT-QUEUE] TFQ1AMH0C noversion-1590645148.317 api.features is ACTIVE 
+[05/28/20, 11:22:28:782] info: [FOCUS-EVENT] Client window focused 
+[05/28/20, 11:22:28:838] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:22:28:858] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:22:28:966] info: [CHECK-UNREADS] (T010W8XM2TW) Checking unreads after window became focused 
+[05/28/20, 11:22:28:967] info: [CHECK-UNREADS] (T010W8XM2TW) Not marking C010K9AJKQB because last_read >= latest && channel is read 
+[05/28/20, 11:22:28:999] info: [BOOT-QUEUE] TFQ1AMH0C noversion-1590645148.317 api.features is RESOLVED 
+[05/28/20, 11:22:29:002] info: [BOOT-QUEUE] TFQ1AMH0C noversion-1590645148.318 experiments.getByUser is ACTIVE 
+[05/28/20, 11:22:29:311] info: [BOOT-QUEUE] TFQ1AMH0C noversion-1590645148.318 experiments.getByUser is RESOLVED 
+[05/28/20, 11:22:29:629] info: [BOOT-QUEUE] TFQ1AMH0C noversion-1590645149.627 onboarding.welcome called 
+[05/28/20, 11:22:29:631] info: [BOOT-QUEUE] TFQ1AMH0C noversion-1590645149.627 onboarding.welcome is ENQUEUED 
+[05/28/20, 11:22:29:633] info: [BOOT-QUEUE] TFQ1AMH0C noversion-1590645149.627 onboarding.welcome is ACTIVE 
+[05/28/20, 11:22:30:040] info: [BOOT-QUEUE] TFQ1AMH0C noversion-1590645149.627 onboarding.welcome is RESOLVED 
+[05/28/20, 11:22:30:191] info: [EMOJI_TRANSLATION] Emoji translations already loaded for en-GB 
+[05/28/20, 11:22:30:192] info: [BOOT] (TFQ1AMH0C) Booting cold 
+[05/28/20, 11:22:30:203] info: [DESKTOP-MIDDLEWARE] (TFQ1AMH0C) Forwarding redux payload to desktop ["theme","notificationPrefs","featureFlags","bootConfig","unreads","locale"] 
+[05/28/20, 11:22:30:206] info: [BOOT] (TFQ1AMH0C) Dispatching boot data 
+[05/28/20, 11:22:30:210] info: [DESKTOP-MIDDLEWARE] (TFQ1AMH0C) Forwarding redux payload to desktop ["featureFlags","version"] 
+[05/28/20, 11:22:30:211] info: [DESKTOP-MIDDLEWARE] (TFQ1AMH0C) Forwarding redux payload to desktop ["theme"] 
+[05/28/20, 11:22:30:224] info: [DESKTOP-MIDDLEWARE] (TFQ1AMH0C) Forwarding redux payload to desktop ["theme","notificationPrefs","unreads"] 
+[05/28/20, 11:22:30:311] info: [EMOJI_TRANSLATION] Emoji translations already loaded for en-GB 
+[05/28/20, 11:22:30:316] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645150.312 emoji.list called with reason: loadEmoji 
+[05/28/20, 11:22:30:316] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645150.312 emoji.list is ENQUEUED 
+[05/28/20, 11:22:30:317] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645150.312 emoji.list is ACTIVE 
+[05/28/20, 11:22:30:318] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645150.317 commands.list called with reason: loadSlashCommands 
+[05/28/20, 11:22:30:319] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645150.317 commands.list is ENQUEUED 
+[05/28/20, 11:22:30:343] info: [PLATFORM-CHANNEL-ACTI] (TFQ1AMH0C) setting count for channel CFR7VKYUX to 0, and marking channel as stale. 
+[05/28/20, 11:22:30:345] info: [BOOT] (TFQ1AMH0C) Boot complete 
+[05/28/20, 11:22:30:348] info: [UNREAD-COUNTS] (TFQ1AMH0C) Counting unreads in CFR7VKYUX because (28) timestamps added 
+[05/28/20, 11:22:30:350] info: [UNREAD-COUNTS] (TFQ1AMH0C) Checking unreads in CFR7VKYUX after a new message 
+[05/28/20, 11:22:30:351] info: [CHECK-UNREADS] (TFQ1AMH0C) Not marking CFR7VKYUX because attention not on chat (workspace_not_focused) 
+[05/28/20, 11:22:30:351] info: [DESKTOP-SIDE-EFFECT] (TFQ1AMH0C) Reacting to  {"type":"[30] Set a value that represents whether we are currently in the boot phase","payload":false,"error":false} 
+[05/28/20, 11:22:30:496] info: [DESKTOP-SIDE-EFFECT] (TFQ1AMH0C) Team TFQ1AMH0C booted, creating delegate 
+[05/28/20, 11:22:30:497] info: Exposing workspace desktop delegate for  TFQ1AMH0C 
+[05/28/20, 11:22:30:497] info: [DESKTOP-SIDE-EFFECT] (T010W8XM2TW) Attempted boot for all workspaces, signaling desktop 
+[05/28/20, 11:22:30:497] info: postLoadTaskSetup: loading spellchecker 
+[05/28/20, 11:22:30:500] info: [BOOT] (TFQ1AMH0C) Connecting to socket 
+[05/28/20, 11:22:30:500] info: [SOCKET-MANAGER] (TFQ1AMH0C) Changing from never_connected to prov_connect 
+[05/28/20, 11:22:30:500] info: [SOCKET-MANAGER] (TFQ1AMH0C) will stay in prov_connect state for up to 10000 ms 
+[05/28/20, 11:22:30:500] info: [SOCKET-MANAGER] (TFQ1AMH0C) Changing from prov_connect to prov_connecting 
+[05/28/20, 11:22:30:501] info: [SOCKET-MANAGER] (TFQ1AMH0C) will stay in prov_connecting state for up to 35000 ms 
+[05/28/20, 11:22:30:501] info: [AUTH] Successfully processed auth changes without needing to reload 
+[05/28/20, 11:22:30:501] info: [AUTH] authCookieChanged 1: ensureCredentialsAreFresh completed 
+[05/28/20, 11:22:30:501] info: toggleAutoSpellcheck: run spellchecker with language detector 
+[05/28/20, 11:22:30:502] warn: SpellChecker::enableSpellCheckerLanguageDetector: Spellchecker is already enabled 
+[05/28/20, 11:22:30:502] info: [CHECK-UNREADS] (T010W8XM2TW) Checking unreads after workspace became focused 
+[05/28/20, 11:22:30:502] info: [CHECK-UNREADS] (T010W8XM2TW) Not marking C010K9AJKQB because last_read >= latest && channel is read 
+[05/28/20, 11:22:30:502] info: Store: REDUX_UPDATE_FROM_WEBAPP (TFQ1AMH0C) Changed keys [theme,notificationPrefs,featureFlags,bootConfig,unreads,locale] 
+[05/28/20, 11:22:30:503] info: Store: REDUX_UPDATE_FROM_WEBAPP (TFQ1AMH0C) Changed keys [featureFlags,version] 
+[05/28/20, 11:22:30:503] info: Store: REDUX_UPDATE_FROM_WEBAPP (TFQ1AMH0C) Changed keys [theme] 
+[05/28/20, 11:22:30:503] info: Store: REDUX_UPDATE_FROM_WEBAPP (TFQ1AMH0C) Changed keys [theme,notificationPrefs,unreads] 
+[05/28/20, 11:22:30:503] info: Store: SYNC Synced 3 workspaces with IDs [THF90G329,T010W8XM2TW,TFQ1AMH0C] 
+[05/28/20, 11:22:30:503] info: [UNKNOWN-FETCH-MANAGER] (TFQ1AMH0C) requesting USLACKBOT,U013HM0077X,U013JA5MBJR (1) 
+[05/28/20, 11:22:30:504] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645150.468 api.getFlannelHttpUrl called with reason: client-needs-valid-flannel-url 
+[05/28/20, 11:22:30:504] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645150.468 api.getFlannelHttpUrl is ENQUEUED 
+[05/28/20, 11:22:30:504] info: [FLANNEL] (TFQ1AMH0C) received a user_subscribe_request call while we are not connected; deferring 
+[05/28/20, 11:22:30:504] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645150.481 promo.banner called with reason: fetch-megaphone-notification-data 
+[05/28/20, 11:22:30:505] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645150.481 promo.banner is ENQUEUED 
+[05/28/20, 11:22:30:505] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645150.486 team.whatsNew called with reason: boot-team 
+[05/28/20, 11:22:30:505] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645150.486 team.whatsNew is ENQUEUED 
+[05/28/20, 11:22:30:505] info: [UNKNOWN-FETCH-MANAGER] (TFQ1AMH0C) requesting _all_actions (1) 
+[05/28/20, 11:22:30:506] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645150.494 apps.actions.list called with reason: fetch-app-actions 
+[05/28/20, 11:22:30:506] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645150.494 apps.actions.list is ENQUEUED 
+[05/28/20, 11:22:30:507] info: Store: SELECTION_CHANGED T010W8XM2TW 
+[05/28/20, 11:22:30:507] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "webapp-loaded"
+} 
+[05/28/20, 11:22:30:509] info: Store: STORE_ENTERPRISE_ID_PAIR {
+  "enterpriseId": null
+} 
+[05/28/20, 11:22:30:649] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645150.312 emoji.list is RESOLVED 
+[05/28/20, 11:22:30:650] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645150.468 api.getFlannelHttpUrl is ACTIVE 
+[05/28/20, 11:22:30:653] info: [EMOJI_STORE] (TFQ1AMH0C) Adding custom emoji to TFQ1AMH0C at 1560987000.000000 
+[05/28/20, 11:22:30:887] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645150.468 api.getFlannelHttpUrl is RESOLVED 
+[05/28/20, 11:22:30:889] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645150.317 commands.list is ACTIVE 
+[05/28/20, 11:22:30:902] info: [API-Q] (TFQ1AMH0C) noversion-1590645150.896 Flannel users/info called with reason: flannel-call:users/info 
+[05/28/20, 11:22:30:903] info: [API-Q] (TFQ1AMH0C) noversion-1590645150.896 Flannel users/info is ENQUEUED 
+[05/28/20, 11:22:30:906] info: [API-Q] (TFQ1AMH0C) noversion-1590645150.901 Flannel users/info called with reason: flannel-call:users/info 
+[05/28/20, 11:22:30:906] info: [API-Q] (TFQ1AMH0C) noversion-1590645150.901 Flannel users/info is ENQUEUED 
+[05/28/20, 11:22:31:149] info: [SOCKET-MANAGER] (TFQ1AMH0C) Changing from prov_connecting to prov_connected 
+[05/28/20, 11:22:31:150] info: [SOCKET-MANAGER] (TFQ1AMH0C) will stay in prov_connected state for up to 60000 ms 
+[05/28/20, 11:22:31:161] info: [SOCKET-MANAGER] (TFQ1AMH0C) Changing from prov_connected to prov_finalize 
+[05/28/20, 11:22:31:161] info: [SOCKET-MANAGER] (TFQ1AMH0C) will stay in prov_finalize state for up to 10000 ms 
+[05/28/20, 11:22:31:164] info: [SOCKET-MANAGER] (TFQ1AMH0C) Changing from prov_finalize to prov_finalizing 
+[05/28/20, 11:22:31:165] info: [SOCKET-MANAGER] (TFQ1AMH0C) will stay in prov_finalizing state for up to 10000 ms 
+[05/28/20, 11:22:31:168] info: [SOCKET-MANAGER] (TFQ1AMH0C) Changing from prov_finalizing to connected 
+[05/28/20, 11:22:31:168] info: [SOCKET-MANAGER] (TFQ1AMH0C) will stay in connected state for up to Infinity ms 
+[05/28/20, 11:22:31:171] info: [SOCKET-MANAGER] (TFQ1AMH0C) Connected to primary region 
+[05/28/20, 11:22:31:181] info: [FLANNEL] (TFQ1AMH0C) connected and trouble free! Continuing deferred user_subscribe_request call 
+[05/28/20, 11:22:31:198] info: [MESSAGE-HISTORY] (TFQ1AMH0C) Resetting reachedEnd 
+[05/28/20, 11:22:31:203] info: [PRESENCE_PROMPT] (TFQ1AMH0C) ignoring prompt due to presence (active) 
+[05/28/20, 11:22:31:207] info: [UNREAD-COUNTS] (TFQ1AMH0C) Fetching counts 
+[05/28/20, 11:22:31:212] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645151.208 client.counts called with reason: client-counts-api/fetchClientCounts 
+[05/28/20, 11:22:31:213] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645151.208 client.counts is ENQUEUED 
+[05/28/20, 11:22:31:215] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645150.317 commands.list is RESOLVED 
+[05/28/20, 11:22:31:217] info: [API-Q] (TFQ1AMH0C) noversion-1590645150.901 Flannel users/info is ACTIVE 
+[05/28/20, 11:22:31:663] info: [API-Q] (TFQ1AMH0C) noversion-1590645150.901 Flannel users/info is RESOLVED 
+[05/28/20, 11:22:31:665] info: [API-Q] (TFQ1AMH0C) noversion-1590645150.896 Flannel users/info is ACTIVE 
+[05/28/20, 11:22:31:724] info: [API-Q] (TFQ1AMH0C) noversion-1590645150.896 Flannel users/info is RESOLVED 
+[05/28/20, 11:22:31:725] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645150.481 promo.banner is ACTIVE 
+[05/28/20, 11:22:31:731] info: [UNKNOWN-FETCH-MANAGER] (TFQ1AMH0C) received USLACKBOT,U013HM0077X,U013JA5MBJR (1) 
+[05/28/20, 11:22:31:758] info: [API-Q] (TFQ1AMH0C) noversion-1590645151.753 Flannel users/info called with reason: flannel-call:users/info 
+[05/28/20, 11:22:31:759] info: [API-Q] (TFQ1AMH0C) noversion-1590645151.753 Flannel users/info is ENQUEUED 
+[05/28/20, 11:22:32:072] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645150.481 promo.banner is RESOLVED 
+[05/28/20, 11:22:32:074] info: [API-Q] (TFQ1AMH0C) noversion-1590645151.753 Flannel users/info is ACTIVE 
+[05/28/20, 11:22:32:118] info: [API-Q] (TFQ1AMH0C) noversion-1590645151.753 Flannel users/info is RESOLVED 
+[05/28/20, 11:22:32:119] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645150.486 team.whatsNew is ACTIVE 
+[05/28/20, 11:22:32:367] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645150.486 team.whatsNew is RESOLVED 
+[05/28/20, 11:22:32:368] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645150.494 apps.actions.list is ACTIVE 
+[05/28/20, 11:22:33:589] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645150.494 apps.actions.list is RESOLVED 
+[05/28/20, 11:22:33:590] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645151.208 client.counts is ACTIVE 
+[05/28/20, 11:22:33:591] info: [UNKNOWN-FETCH-MANAGER] (TFQ1AMH0C) received _all_actions (1) 
+[05/28/20, 11:22:33:970] info: [HISTORY-NAVIGATION] Adding route to the history stack 
+[05/28/20, 11:22:33:972] info: [API-Q] (T010W8XM2TW) 089032cd-1590645153.722 conversations.replies called with reason: history-api/fetchReplies 
+[05/28/20, 11:22:33:972] info: [API-Q] (T010W8XM2TW) 089032cd-1590645153.722 conversations.replies is ENQUEUED 
+[05/28/20, 11:22:33:973] info: [API-Q] (T010W8XM2TW) 089032cd-1590645153.722 conversations.replies is ACTIVE 
+[05/28/20, 11:22:34:131] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645151.208 client.counts is RESOLVED 
+[05/28/20, 11:22:34:168] info: [COUNTS] (TFQ1AMH0C) Applying counts to channels 
+[05/28/20, 11:22:34:178] info: [COUNTS] (TFQ1AMH0C) Threads has_unreads:false mention_count:0 
+[05/28/20, 11:22:34:181] info: [COUNTS] (TFQ1AMH0C) Completed counts processing 
+[05/28/20, 11:22:34:337] info: [API-Q] (T010W8XM2TW) 089032cd-1590645153.722 conversations.replies is RESOLVED 
+[05/28/20, 11:22:41:802] info: [HISTORY-NAVIGATION] Adding route to the history stack 
+[05/28/20, 11:22:43:589] info: [FOCUS-EVENT] Client window blurred 
+[05/28/20, 11:22:43:636] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:22:43:773] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:22:50:948] info: [CHECK-FOR-OLD-IMS] (T010W8XM2TW) Within limit: 6 
+[05/28/20, 11:22:51:649] info: [API-Q] (T010W8XM2TW) 089032cd-1590645171.637 client.counts called with reason: client-counts-api/fetchClientCounts 
+[05/28/20, 11:22:51:650] info: [API-Q] (T010W8XM2TW) 089032cd-1590645171.637 client.counts is ENQUEUED 
+[05/28/20, 11:22:51:651] info: [API-Q] (T010W8XM2TW) 089032cd-1590645171.637 client.counts is ACTIVE 
+[05/28/20, 11:22:52:253] info: [API-Q] (T010W8XM2TW) 089032cd-1590645171.637 client.counts is RESOLVED 
+[05/28/20, 11:22:52:263] info: [COUNTS] (T010W8XM2TW) Applying counts to channels 
+[05/28/20, 11:22:52:275] info: [COUNTS] (T010W8XM2TW) Recounted C010K9AJKQB; initial: {"unreadCnt":0,"unreadHighlightCnt":0}; after: {"unreadCnt":0,"unreadHighlightCnt":0} 
+[05/28/20, 11:22:52:276] info: [COUNTS] (T010W8XM2TW) Threads has_unreads:false mention_count:0 
+[05/28/20, 11:22:52:281] info: [COUNTS] (T010W8XM2TW) Completed counts processing 
+[05/28/20, 11:23:17:032] info: [API-Q] (T010W8XM2TW) 089032cd-1590645197.016 channels.suggestions called with reason: channels-suggestions 
+[05/28/20, 11:23:17:033] info: [API-Q] (T010W8XM2TW) 089032cd-1590645197.016 channels.suggestions is ENQUEUED 
+[05/28/20, 11:23:17:034] info: [API-Q] (T010W8XM2TW) 089032cd-1590645197.016 channels.suggestions is ACTIVE 
+[05/28/20, 11:23:17:338] info: [API-Q] (T010W8XM2TW) 089032cd-1590645197.016 channels.suggestions is RESOLVED 
+[05/28/20, 11:23:31:190] info: [CHECK-FOR-OLD-IMS] (TFQ1AMH0C) Missing channel section information 
+[05/28/20, 11:23:31:200] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645211.192 users.channelSections.list called with reason: conditional-fetch-manager 
+[05/28/20, 11:23:31:201] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645211.192 users.channelSections.list is ENQUEUED 
+[05/28/20, 11:23:31:202] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645211.192 users.channelSections.list is ACTIVE 
+[05/28/20, 11:23:31:440] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645211.192 users.channelSections.list is RESOLVED 
+[05/28/20, 11:23:36:161] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645216.153 client.counts called with reason: client-counts-api/fetchClientCounts 
+[05/28/20, 11:23:36:162] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645216.153 client.counts is ENQUEUED 
+[05/28/20, 11:23:36:163] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645216.153 client.counts is ACTIVE 
+[05/28/20, 11:23:36:486] info: [API-Q] (TFQ1AMH0C) 089032cd-1590645216.153 client.counts is RESOLVED 
+[05/28/20, 11:23:36:495] info: [COUNTS] (TFQ1AMH0C) Applying counts to channels 
+[05/28/20, 11:23:36:502] info: [COUNTS] (TFQ1AMH0C) Threads has_unreads:false mention_count:0 
+[05/28/20, 11:23:36:507] info: [COUNTS] (TFQ1AMH0C) Completed counts processing 
+[05/28/20, 11:25:15:493] info: [DND] (THF90G329) Checking for changes in DND status for the following members: UPA3JNC0H,UHH1KRLPR,UHFPS6QQM,U01036WH0CQ,UV76CGDFV,UHDQE06NL,U010T7ACYV9,U010GKUTWG0 
+[05/28/20, 11:25:15:518] info: [DND] (THF90G329) Will check for changes in DND status again in 5 minutes 
+[05/28/20, 11:26:52:327] info: [DND] (T010W8XM2TW) Checking for changes in DND status for the following members: U010L2H5LTD,U010WNKEQ13,U010X2P8H4Y,U012DMAR2TD,U012S452W3T 
+[05/28/20, 11:26:52:329] info: [DND] (T010W8XM2TW) Will check for changes in DND status again in 5 minutes 
+[05/28/20, 11:29:16:122] info: [FOCUS-EVENT] Client window focused 
+[05/28/20, 11:29:16:167] info: [FOCUS-EVENT] Client window blurred 
+[05/28/20, 11:29:16:241] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:29:16:316] info: [CHECK-UNREADS] (T010W8XM2TW) Checking unreads after window became focused 
+[05/28/20, 11:29:16:317] info: [CHECK-UNREADS] (T010W8XM2TW) Not marking C010K9AJKQB because attention not on chat (window_not_focused) 
+[05/28/20, 11:29:16:328] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:29:17:166] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:29:18:125] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 1056,
+      "width": 1920,
+      "x": 0,
+      "y": 24
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[05/28/20, 11:29:18:127] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[05/28/20, 11:30:15:519] info: [DND] (THF90G329) Checking for changes in DND status for the following members: UPA3JNC0H,UHH1KRLPR,UHFPS6QQM,U01036WH0CQ,UV76CGDFV,UHDQE06NL,U010T7ACYV9,U010GKUTWG0 
+[05/28/20, 11:30:15:520] info: [DND] (THF90G329) Will check for changes in DND status again in 5 minutes 
+[05/28/20, 11:30:42:438] info: [RTM] (THF90G329) Processed message event in 30.305 
+[05/28/20, 11:30:42:442] info: [COUNTS] (THF90G329) Updated unread_cnt for D0146FKTPDE: 1 
+[05/28/20, 11:30:42:450] info: [UNREAD-COUNTS] (THF90G329) Fetching history for unread counting: D0146FKTPDE, waiting 3264 ms 
+[05/28/20, 11:30:42:451] error: [DESKTOP] 'desktop.notice.shouldPlaySound' is missing or not a function 
+[05/28/20, 11:30:42:638] info: Store: NEW_NOTIFICATION {
+  "authorName": "[REDACTED]",
+  "avatarImage": "[REDACTED]",
+  "channel": "D0146FKTPDE",
+  "channelName": "[REDACTED]",
+  "content": "[REDACTED]",
+  "id": "THF90G329_1590645642.002200",
+  "launchUri": "slack://channel?id=D0146FKTPDE&message=1590645642.002200&team=THF90G329",
+  "msg": "1590645642.002200",
+  "silent": true,
+  "subtitle": "[REDACTED]",
+  "teamId": "THF90G329",
+  "title": "[REDACTED]"
+} 
+[05/28/20, 11:30:43:302] info: [DESKTOP-MIDDLEWARE] (THF90G329) Forwarding redux payload to desktop ["unreads"] 
+[05/28/20, 11:30:43:356] info: Store: REDUX_UPDATE_FROM_WEBAPP (THF90G329) Changed keys [unreads] 
+[05/28/20, 11:30:45:717] info: [HISTORY-FETCH] (THF90G329) Fetching history for unread counting: D0146FKTPDE 
+[05/28/20, 11:30:45:728] info: [API-Q] (THF90G329) 089032cd-1590645645.718 conversations.history called with reason: unread-counts/onAddTimestamps 
+[05/28/20, 11:30:45:729] info: [API-Q] (THF90G329) 089032cd-1590645645.718 conversations.history is ENQUEUED 
+[05/28/20, 11:30:45:730] info: [API-Q] (THF90G329) 089032cd-1590645645.718 conversations.history is ACTIVE 
+[05/28/20, 11:30:46:069] info: [API-Q] (THF90G329) 089032cd-1590645645.718 conversations.history is RESOLVED 
+[05/28/20, 11:30:46:112] info: [PLATFORM-CHANNEL-ACTI] (THF90G329) setting count for channel D0146FKTPDE to 0, and marking channel as stale. 
+[05/28/20, 11:30:46:133] info: [PINS] (THF90G329) Pins count updated for channel D0146FKTPDE: 0 
+[05/28/20, 11:31:52:329] info: [DND] (T010W8XM2TW) Checking for changes in DND status for the following members: U010L2H5LTD,U010WNKEQ13,U010X2P8H4Y,U012DMAR2TD,U012S452W3T 
+[05/28/20, 11:31:52:330] info: [DND] (T010W8XM2TW) Will check for changes in DND status again in 5 minutes 
+[05/28/20, 11:34:15:229] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[05/28/20, 11:34:15:247] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[05/28/20, 11:34:25:212] info: Store: SET_SYSTEM_IDLE active 
+[05/28/20, 11:34:25:232] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[05/28/20, 11:35:15:521] info: [DND] (THF90G329) Checking for changes in DND status for the following members: UPA3JNC0H,UHH1KRLPR,UHFPS6QQM,U01036WH0CQ,UV76CGDFV,UHDQE06NL,U010T7ACYV9,U010GKUTWG0 
+[05/28/20, 11:35:15:522] info: [DND] (THF90G329) Will check for changes in DND status again in 5 minutes 
+[05/28/20, 11:36:13:921] info: [CHECK-FOR-OLD-IMS] (THF90G329) Within limit: 9 
+[05/28/20, 11:36:52:330] info: [DND] (T010W8XM2TW) Checking for changes in DND status for the following members: U010L2H5LTD,U010WNKEQ13,U010X2P8H4Y,U012DMAR2TD,U012S452W3T 
+[05/28/20, 11:36:52:331] info: [DND] (T010W8XM2TW) Will check for changes in DND status again in 5 minutes 
+[05/28/20, 11:37:50:950] info: [CHECK-FOR-OLD-IMS] (T010W8XM2TW) Within limit: 6 
+[05/28/20, 11:38:31:193] info: [CHECK-FOR-OLD-IMS] (TFQ1AMH0C) Within limit: 3 
+[05/28/20, 11:40:15:521] info: [DND] (THF90G329) Checking for changes in DND status for the following members: UPA3JNC0H,UHH1KRLPR,UHFPS6QQM,U01036WH0CQ,UV76CGDFV,UHDQE06NL,U010T7ACYV9,U010GKUTWG0 
+[05/28/20, 11:40:15:522] info: [DND] (THF90G329) Will check for changes in DND status again in 5 minutes 
+[05/28/20, 11:41:52:332] info: [DND] (T010W8XM2TW) Checking for changes in DND status for the following members: U010L2H5LTD,U010WNKEQ13,U010X2P8H4Y,U012DMAR2TD,U012S452W3T 
+[05/28/20, 11:41:52:333] info: [DND] (T010W8XM2TW) Will check for changes in DND status again in 5 minutes 
+[05/28/20, 11:42:31:043] info: [FOCUS-EVENT] Client window focused 
+[05/28/20, 11:42:31:077] info: [FOCUS-EVENT] Client window blurred 
+[05/28/20, 11:42:31:181] info: [CHECK-UNREADS] (T010W8XM2TW) Checking unreads after window became focused 
+[05/28/20, 11:42:31:181] info: [CHECK-UNREADS] (T010W8XM2TW) Not marking C010K9AJKQB because attention not on chat (window_not_focused) 
+[05/28/20, 11:42:31:194] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:42:31:206] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:45:15:523] info: [DND] (THF90G329) Checking for changes in DND status for the following members: UPA3JNC0H,UHH1KRLPR,UHFPS6QQM,U01036WH0CQ,UV76CGDFV,UHDQE06NL,U010T7ACYV9,U010GKUTWG0 
+[05/28/20, 11:45:15:524] info: [DND] (THF90G329) Will check for changes in DND status again in 5 minutes 
+[05/28/20, 11:46:44:699] info: [RTM] (T010W8XM2TW) Processed presence_change event in 29.005 
+[05/28/20, 11:46:52:333] info: [DND] (T010W8XM2TW) Checking for changes in DND status for the following members: U010L2H5LTD,U010WNKEQ13,U010X2P8H4Y,U012DMAR2TD,U012S452W3T 
+[05/28/20, 11:46:52:334] info: [DND] (T010W8XM2TW) Will check for changes in DND status again in 5 minutes 
+[05/28/20, 11:47:45:410] info: [FOCUS-EVENT] Client window focused 
+[05/28/20, 11:47:45:463] info: [FOCUS-EVENT] Client window blurred 
+[05/28/20, 11:47:45:562] info: [CHECK-UNREADS] (T010W8XM2TW) Checking unreads after window became focused 
+[05/28/20, 11:47:45:563] info: [CHECK-UNREADS] (T010W8XM2TW) Not marking C010K9AJKQB because attention not on chat (window_not_focused) 
+[05/28/20, 11:47:45:577] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:47:45:587] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:47:46:454] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:47:46:482] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:47:46:892] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 1018,
+      "width": 1858,
+      "x": 31,
+      "y": 31
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[05/28/20, 11:47:46:894] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[05/28/20, 11:48:07:111] info: [FOCUS-EVENT] Client window focused 
+[05/28/20, 11:48:07:168] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:48:07:334] info: [CHECK-UNREADS] (T010W8XM2TW) Checking unreads after window became focused 
+[05/28/20, 11:48:07:334] info: [CHECK-UNREADS] (T010W8XM2TW) Not marking C010K9AJKQB because last_read >= latest && channel is read 
+[05/28/20, 11:48:07:337] info: [FOCUS-EVENT] Client window blurred 
+[05/28/20, 11:48:07:368] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:48:08:255] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:48:08:280] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:48:08:442] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 1036,
+      "width": 1876,
+      "x": 22,
+      "y": 22
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[05/28/20, 11:48:08:442] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[05/28/20, 11:49:08:987] info: [RTM] (T010W8XM2TW) Processed presence_change event in 34.09 
+[05/28/20, 11:49:25:071] info: [RTM] (T010W8XM2TW) Processed message event in 37.025 
+[05/28/20, 11:49:25:135] info: [RTM] (T010W8XM2TW) Processed message event in 24.42 
+[05/28/20, 11:49:26:892] info: [RTM] (T010W8XM2TW) Processed presence_change event in 21.99 
+[05/28/20, 11:49:43:964] info: [FOCUS-EVENT] Client window focused 
+[05/28/20, 11:49:44:028] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:49:44:069] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:49:44:162] info: [CHECK-UNREADS] (T010W8XM2TW) Checking unreads after window became focused 
+[05/28/20, 11:49:44:162] info: [CHECK-UNREADS] (T010W8XM2TW) Not marking C010K9AJKQB because last_read >= latest && channel is read 
+[05/28/20, 11:49:44:971] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:49:45:152] info: [FOCUS-EVENT] Client window blurred 
+[05/28/20, 11:49:45:154] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:49:45:177] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:49:45:186] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 1010,
+      "width": 1876,
+      "x": 22,
+      "y": 22
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[05/28/20, 11:49:45:199] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[05/28/20, 11:50:11:622] info: [FOCUS-EVENT] Client window focused 
+[05/28/20, 11:50:11:735] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:50:11:742] info: [FOCUS-EVENT] Client window blurred 
+[05/28/20, 11:50:11:861] info: [CHECK-UNREADS] (T010W8XM2TW) Checking unreads after window became focused 
+[05/28/20, 11:50:11:861] info: [CHECK-UNREADS] (T010W8XM2TW) Not marking C010K9AJKQB because attention not on chat (window_not_focused) 
+[05/28/20, 11:50:11:875] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:50:12:785] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:50:12:811] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:50:12:955] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 1058,
+      "width": 1898,
+      "x": 11,
+      "y": 11
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[05/28/20, 11:50:12:955] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[05/28/20, 11:50:15:526] info: [DND] (THF90G329) Checking for changes in DND status for the following members: UPA3JNC0H,UHH1KRLPR,UHFPS6QQM,U01036WH0CQ,UV76CGDFV,UHDQE06NL,U010T7ACYV9,U010GKUTWG0 
+[05/28/20, 11:50:15:528] info: [DND] (THF90G329) Will check for changes in DND status again in 5 minutes 
+[05/28/20, 11:50:24:458] info: [FOCUS-EVENT] Client window focused 
+[05/28/20, 11:50:24:506] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:50:24:673] info: [CHECK-UNREADS] (T010W8XM2TW) Checking unreads after window became focused 
+[05/28/20, 11:50:24:678] info: [CHECK-UNREADS] (T010W8XM2TW) Not marking C010K9AJKQB because last_read >= latest && channel is read 
+[05/28/20, 11:50:24:682] info: [FOCUS-EVENT] Client window blurred 
+[05/28/20, 11:50:24:712] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:50:25:663] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:50:25:688] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:50:25:839] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 1048,
+      "width": 1888,
+      "x": 16,
+      "y": 16
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[05/28/20, 11:50:25:840] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[05/28/20, 11:51:13:922] info: [CHECK-FOR-OLD-IMS] (THF90G329) Within limit: 9 
+[05/28/20, 11:51:45:973] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[05/28/20, 11:51:45:995] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[05/28/20, 11:51:52:335] info: [DND] (T010W8XM2TW) Checking for changes in DND status for the following members: U010L2H5LTD,U010WNKEQ13,U010X2P8H4Y,U012DMAR2TD,U012S452W3T 
+[05/28/20, 11:51:52:336] info: [DND] (T010W8XM2TW) Will check for changes in DND status again in 5 minutes 
+[05/28/20, 11:51:56:003] info: Store: SET_SYSTEM_IDLE active 
+[05/28/20, 11:51:56:016] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[05/28/20, 11:52:16:014] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[05/28/20, 11:52:16:029] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[05/28/20, 11:52:50:949] info: [CHECK-FOR-OLD-IMS] (T010W8XM2TW) Within limit: 6 
+[05/28/20, 11:53:31:192] info: [CHECK-FOR-OLD-IMS] (TFQ1AMH0C) Within limit: 3 
+[05/28/20, 11:53:46:069] info: Store: SET_SYSTEM_IDLE active 
+[05/28/20, 11:53:46:087] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[05/28/20, 11:54:36:131] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[05/28/20, 11:54:36:145] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[05/28/20, 11:55:08:825] info: [RTM] (THF90G329) Processed message event in 22.45 
+[05/28/20, 11:55:08:829] info: [COUNTS] (THF90G329) Updated unread_cnt for D013BR8Q08P: 1 
+[05/28/20, 11:55:08:838] info: [UNREAD-COUNTS] (THF90G329) Fetching history for unread counting: D013BR8Q08P, waiting 9014 ms 
+[05/28/20, 11:55:08:839] error: [DESKTOP] 'desktop.notice.shouldPlaySound' is missing or not a function 
+[05/28/20, 11:55:08:849] info: Store: NEW_NOTIFICATION {
+  "authorName": "[REDACTED]",
+  "avatarImage": "[REDACTED]",
+  "channel": "D013BR8Q08P",
+  "channelName": "[REDACTED]",
+  "content": "[REDACTED]",
+  "id": "THF90G329_1590647108.000200",
+  "launchUri": "slack://channel?id=D013BR8Q08P&message=1590647108.000200&team=THF90G329",
+  "msg": "1590647108.000200",
+  "silent": true,
+  "subtitle": "[REDACTED]",
+  "teamId": "THF90G329",
+  "title": "[REDACTED]"
+} 
+[05/28/20, 11:55:09:180] info: [DESKTOP-MIDDLEWARE] (THF90G329) Forwarding redux payload to desktop ["unreads"] 
+[05/28/20, 11:55:09:197] info: Store: REDUX_UPDATE_FROM_WEBAPP (THF90G329) Changed keys [unreads] 
+[05/28/20, 11:55:15:318] info: [FOCUS-EVENT] Client window focused 
+[05/28/20, 11:55:15:348] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:55:15:476] info: [CHECK-UNREADS] (T010W8XM2TW) Checking unreads after window became focused 
+[05/28/20, 11:55:15:476] info: [CHECK-UNREADS] (T010W8XM2TW) Not marking C010K9AJKQB because last_read >= latest && channel is read 
+[05/28/20, 11:55:15:494] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:55:15:517] info: [COUNTS] (THF90G329) Updated unread_cnt for D013BR8Q08P: 2 
+[05/28/20, 11:55:15:521] info: [UNREAD-COUNTS] (THF90G329) Dropping unread history request for D013BR8Q08P since there is already one pending 
+[05/28/20, 11:55:15:521] error: [DESKTOP] 'desktop.notice.shouldPlaySound' is missing or not a function 
+[05/28/20, 11:55:15:608] info: Store: NEW_NOTIFICATION {
+  "authorName": "[REDACTED]",
+  "avatarImage": "[REDACTED]",
+  "channel": "D013BR8Q08P",
+  "channelName": "[REDACTED]",
+  "content": "[REDACTED]",
+  "id": "THF90G329_1590647115.000500",
+  "launchUri": "slack://channel?id=D013BR8Q08P&message=1590647115.000500&team=THF90G329",
+  "msg": "1590647115.000500",
+  "silent": true,
+  "subtitle": "[REDACTED]",
+  "teamId": "THF90G329",
+  "title": "[REDACTED]"
+} 
+[05/28/20, 11:55:15:609] info: [DND] (THF90G329) Checking for changes in DND status for the following members: UPA3JNC0H,UHH1KRLPR,UHFPS6QQM,U01036WH0CQ,UV76CGDFV,UHDQE06NL,U010T7ACYV9,U010GKUTWG0 
+[05/28/20, 11:55:15:610] info: [DND] (THF90G329) Will check for changes in DND status again in 5 minutes 
+[05/28/20, 11:55:15:952] info: [DESKTOP-MIDDLEWARE] (THF90G329) Forwarding redux payload to desktop ["unreads"] 
+[05/28/20, 11:55:15:974] info: Store: REDUX_UPDATE_FROM_WEBAPP (THF90G329) Changed keys [unreads] 
+[05/28/20, 11:55:16:140] info: Store: SET_SYSTEM_IDLE active 
+[05/28/20, 11:55:16:147] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[05/28/20, 11:55:16:216] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:55:17:841] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 1022,
+      "width": 1888,
+      "x": 16,
+      "y": 16
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[05/28/20, 11:55:17:843] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[05/28/20, 11:55:17:856] info: [HISTORY-FETCH] (THF90G329) Fetching history for unread counting: D013BR8Q08P 
+[05/28/20, 11:55:17:872] info: [API-Q] (THF90G329) 089032cd-1590647117.861 conversations.history called with reason: unread-counts/onAddTimestamps 
+[05/28/20, 11:55:17:873] info: [API-Q] (THF90G329) 089032cd-1590647117.861 conversations.history is ENQUEUED 
+[05/28/20, 11:55:17:875] info: [API-Q] (THF90G329) 089032cd-1590647117.861 conversations.history is ACTIVE 
+[05/28/20, 11:55:18:274] info: [API-Q] (THF90G329) 089032cd-1590647117.861 conversations.history is RESOLVED 
+[05/28/20, 11:55:18:275] info: [PLATFORM-CHANNEL-ACTI] (THF90G329) setting count for channel D013BR8Q08P to 0, and marking channel as stale. 
+[05/28/20, 11:55:18:276] info: [PINS] (THF90G329) Pins count updated for channel D013BR8Q08P: 0 
+[05/28/20, 11:55:18:335] info: [SWITCH-TO-CHANNEL] (THF90G329) Switching to CHGC3HJGN at end 
+[05/28/20, 11:55:18:489] error: [DESKTOP] 'desktop.stats.performance.disable' is missing or not a function 
+[05/28/20, 11:55:18:492] info: [HISTORY-NAVIGATION] Adding route to the history stack 
+[05/28/20, 11:55:18:510] error: [DESKTOP] 'desktop.stats.performance.timeSpentInPreload' is missing or not a function 
+[05/28/20, 11:55:18:512] info: [DRAFTS] (THF90G329) There are no channels with drafts 
+[05/28/20, 11:55:18:515] info: [API-Q] (THF90G329) 089032cd-1590647118.512 apps.getSidebarPrompts called with reason: initializeAppSuggestionLinksData 
+[05/28/20, 11:55:18:516] info: [API-Q] (THF90G329) 089032cd-1590647118.512 apps.getSidebarPrompts is ENQUEUED 
+[05/28/20, 11:55:18:516] info: [API-Q] (THF90G329) 089032cd-1590647118.512 apps.getSidebarPrompts is ACTIVE 
+[05/28/20, 11:55:19:084] info: [CHECK-UNREADS] (THF90G329) unreadLineVisible updated: false -> true 
+[05/28/20, 11:55:19:120] info: [CHECK-UNREADS] (THF90G329) Checking unreads after workspace became focused 
+[05/28/20, 11:55:19:121] info: [CHECK-UNREADS] (THF90G329) Not marking CHGC3HJGN because last_read >= latest && channel is read 
+[05/28/20, 11:55:19:173] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:55:19:185] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:55:19:190] info: [API-Q] (THF90G329) 089032cd-1590647118.512 apps.getSidebarPrompts is RESOLVED 
+[05/28/20, 11:55:19:198] info: Store: SELECTION_CHANGED THF90G329 
+[05/28/20, 11:55:19:361] info: [DND] (THF90G329) There are no members in the presence subscription that we need to fetch DND times for! 
+[05/28/20, 11:55:19:471] info: [CHECK-UNREADS] (THF90G329) Checking unreads after unread line became visible 
+[05/28/20, 11:55:19:472] info: [CHECK-UNREADS] (THF90G329) Not marking CHGC3HJGN because last_read >= latest && channel is read 
+[05/28/20, 11:55:19:985] info: [RTM] (THF90G329) Processed presence_change event in 29.24 
+[05/28/20, 11:55:22:814] info: [ACTION:CHANNEL-SIDEBAR] Selected D0146FKTPDE 
+[05/28/20, 11:55:22:815] info: [CHANNEL-SIDEBAR] (THF90G329) onItemSelect D0146FKTPDE 
+[05/28/20, 11:55:22:842] info: [SWITCH-TO-CHANNEL] (THF90G329) Switching to D0146FKTPDE at last_read 1590579157.001400 
+[05/28/20, 11:55:22:858] info: [HISTORY-NAVIGATION] Adding route to the history stack 
+[05/28/20, 11:55:22:959] info: [MESSAGE-LIST] (THF90G329) Switching channels: D0146FKTPDE timestamps: 20 
+[05/28/20, 11:55:23:172] info: [CHECK-UNREADS] (THF90G329) unreadLineVisible updated: false -> true 
+[05/28/20, 11:55:23:301] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:55:23:314] info: [API-Q] (THF90G329) noversion-1590647123.311 Flannel users/counts called with reason: flannel-call:users/counts 
+[05/28/20, 11:55:23:315] info: [API-Q] (THF90G329) noversion-1590647123.311 Flannel users/counts is ENQUEUED 
+[05/28/20, 11:55:23:315] info: [API-Q] (THF90G329) noversion-1590647123.311 Flannel users/counts is ACTIVE 
+[05/28/20, 11:55:23:382] info: [CHECK-UNREADS] (THF90G329) Checking unreads after debounced channel change to D0146FKTPDE 
+[05/28/20, 11:55:23:382] info: [CHECK-UNREADS] (THF90G329) Marking D0146FKTPDE because unread line is visible 
+[05/28/20, 11:55:23:386] info: [SET-LAST-READ] (THF90G329) markLastRead D0146FKTPDE:1590645642.002200, immediate: undefined 
+[05/28/20, 11:55:23:391] info: [SET-LAST-READ] (THF90G329) delaying D0146FKTPDE mark by 982.7009216154803ms 
+[05/28/20, 11:55:23:394] info: [UNREAD-COUNTS] (THF90G329) Counting unreads in D0146FKTPDE because last_read changed to 1590645642.002200 
+[05/28/20, 11:55:23:394] info: [COUNTS] (THF90G329) Updated unread_cnt for D0146FKTPDE: 0 
+[05/28/20, 11:55:23:641] info: [DESKTOP-MIDDLEWARE] (THF90G329) Forwarding redux payload to desktop ["unreads"] 
+[05/28/20, 11:55:23:650] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:55:23:656] info: [CHECK-UNREADS] (THF90G329) Checking unreads after unread line became visible 
+[05/28/20, 11:55:23:656] info: [CHECK-UNREADS] (THF90G329) Not marking D0146FKTPDE because last_read >= latest && channel is read 
+[05/28/20, 11:55:23:705] info: Store: REDUX_UPDATE_FROM_WEBAPP (THF90G329) Changed keys [unreads] 
+[05/28/20, 11:55:23:840] info: [API-Q] (THF90G329) noversion-1590647123.311 Flannel users/counts is RESOLVED 
+[05/28/20, 11:55:24:375] info: [SET-LAST-READ] (THF90G329) delay resolved, marking D0146FKTPDE with API 
+[05/28/20, 11:55:24:392] info: [API-Q] (THF90G329) 089032cd-1590647124.384 conversations.mark called with reason: viewed 
+[05/28/20, 11:55:24:393] info: [API-Q] (THF90G329) 089032cd-1590647124.384 conversations.mark is ENQUEUED 
+[05/28/20, 11:55:24:395] info: [API-Q] (THF90G329) 089032cd-1590647124.384 conversations.mark is ACTIVE 
+[05/28/20, 11:55:24:776] info: [API-Q] (THF90G329) 089032cd-1590647124.384 conversations.mark is RESOLVED 
+[05/28/20, 11:55:28:647] info: [ACTION:MESSAGE] (THF90G329) Sent a message to D0146FKTPDE via HTTP, clientMsgId: 0dd1226e-2498-457b-8eda-732dc75a3309 
+[05/28/20, 11:55:28:650] info: [ACTION:MESSAGE-Q] (THF90G329) Enqueueing message with clientMsgId 0dd1226e-2498-457b-8eda-732dc75a3309, queue has 1 messages 
+[05/28/20, 11:55:28:651] info: [ACTION:MESSAGE-Q] (THF90G329) Sending message with clientMsgId 0dd1226e-2498-457b-8eda-732dc75a3309 
+[05/28/20, 11:55:28:659] info: [API-Q] (THF90G329) 089032cd-1590647128.651 chat.postMessage called with reason: webapp_message_send 
+[05/28/20, 11:55:28:660] info: [API-Q] (THF90G329) 089032cd-1590647128.651 chat.postMessage is ENQUEUED 
+[05/28/20, 11:55:28:661] info: [API-Q] (THF90G329) 089032cd-1590647128.651 chat.postMessage is ACTIVE 
+[05/28/20, 11:55:28:661] info: [ACTION:MESSAGE-Q] (THF90G329) Shifting queue, now has 0 messages 
+[05/28/20, 11:55:28:673] info: [UNREAD-COUNTS] (THF90G329) Counting unreads in D0146FKTPDE because (1) timestamps added 
+[05/28/20, 11:55:28:673] info: [UNREAD-COUNTS] (THF90G329) Checking unreads in D0146FKTPDE after a new message 
+[05/28/20, 11:55:28:673] info: [CHECK-UNREADS] (THF90G329) Not marking D0146FKTPDE because last_read >= latest && channel is read 
+[05/28/20, 11:55:29:005] info: [ACTION:MESSAGE] (THF90G329) Resolved a message with clientMsgId 0dd1226e-2498-457b-8eda-732dc75a3309 in D0146FKTPDE with ts 1590647128.002400 
+[05/28/20, 11:55:29:021] info: [ACTION:MESSAGE-Q] (THF90G329) Resolving active request with clientMsgId 0dd1226e-2498-457b-8eda-732dc75a3309 
+[05/28/20, 11:55:29:026] info: [RTM] (THF90G329) Processed message event in 56.895 
+[05/28/20, 11:55:29:027] info: [UNREAD-COUNTS] (THF90G329) Counting unreads in D0146FKTPDE because (1) timestamps added 
+[05/28/20, 11:55:29:028] info: [UNREAD-COUNTS] (THF90G329) Checking unreads in D0146FKTPDE after a new message 
+[05/28/20, 11:55:29:028] info: [CHECK-UNREADS] (THF90G329) Marking D0146FKTPDE because unread line is visible 
+[05/28/20, 11:55:29:029] info: [SET-LAST-READ] (THF90G329) markLastRead D0146FKTPDE:1590647128.002400, immediate: undefined 
+[05/28/20, 11:55:29:040] info: [SET-LAST-READ] (THF90G329) delaying D0146FKTPDE mark by 4040.530320345326ms 
+[05/28/20, 11:55:29:045] info: [UNREAD-COUNTS] (THF90G329) Counting unreads in D0146FKTPDE because message removed 
+[05/28/20, 11:55:29:046] info: [UNREAD-COUNTS] (THF90G329) Counting unreads in D0146FKTPDE because last_read changed to 1590647128.002400 
+[05/28/20, 11:55:29:163] info: [API-Q] (THF90G329) 089032cd-1590647128.651 chat.postMessage is RESOLVED 
+[05/28/20, 11:55:33:080] info: [SET-LAST-READ] (THF90G329) delay resolved, marking D0146FKTPDE with API 
+[05/28/20, 11:55:33:101] info: [API-Q] (THF90G329) 089032cd-1590647133.091 conversations.mark called with reason: viewed 
+[05/28/20, 11:55:33:102] info: [API-Q] (THF90G329) 089032cd-1590647133.091 conversations.mark is ENQUEUED 
+[05/28/20, 11:55:33:103] info: [API-Q] (THF90G329) 089032cd-1590647133.091 conversations.mark is ACTIVE 
+[05/28/20, 11:55:33:489] info: [API-Q] (THF90G329) 089032cd-1590647133.091 conversations.mark is RESOLVED 
+[05/28/20, 11:55:34:362] info: [FOCUS-EVENT] Client window blurred 
+[05/28/20, 11:55:34:404] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:55:34:427] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 11:56:52:422] info: [DND] (T010W8XM2TW) Checking for changes in DND status for the following members: U010L2H5LTD,U010WNKEQ13,U010X2P8H4Y,U012DMAR2TD,U012S452W3T 
+[05/28/20, 11:56:52:437] info: [DND] (T010W8XM2TW) Will check for changes in DND status again in 5 minutes 
+[05/28/20, 12:00:14:773] info: [API-Q] (THF90G329) noversion-1590647414.765 Flannel users/counts called with reason: flannel-call:users/counts 
+[05/28/20, 12:00:14:773] info: [API-Q] (THF90G329) noversion-1590647414.765 Flannel users/counts is ENQUEUED 
+[05/28/20, 12:00:14:774] info: [API-Q] (THF90G329) noversion-1590647414.765 Flannel users/counts is ACTIVE 
+[05/28/20, 12:00:14:978] info: [API-Q] (THF90G329) noversion-1590647414.765 Flannel users/counts is RESOLVED 
+[05/28/20, 12:00:15:072] info: [RTM] (THF90G329) Processed message event in 66.44 
+[05/28/20, 12:00:15:081] info: [COUNTS] (THF90G329) Updated unread_cnt for G012Y0A85HQ: 1 
+[05/28/20, 12:00:15:109] info: [COUNTS] (THF90G329) Updated unread_highlight_cnt for G012Y0A85HQ: 1 
+[05/28/20, 12:00:15:118] error: [DESKTOP] 'desktop.notice.shouldPlaySound' is missing or not a function 
+[05/28/20, 12:00:15:202] info: [DESKTOP-MIDDLEWARE] (THF90G329) Forwarding redux payload to desktop ["unreads"] 
+[05/28/20, 12:00:15:208] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 12:00:15:218] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 12:00:15:222] info: Store: NEW_NOTIFICATION {
+  "authorName": "[REDACTED]",
+  "avatarImage": "[REDACTED]",
+  "channel": "G012Y0A85HQ",
+  "channelName": "[REDACTED]",
+  "content": "[REDACTED]",
+  "id": "THF90G329_1590647414.001600",
+  "launchUri": "slack://channel?id=G012Y0A85HQ&message=1590647414.001600&team=THF90G329",
+  "msg": "1590647414.001600",
+  "silent": true,
+  "subtitle": "[REDACTED]",
+  "teamId": "THF90G329",
+  "title": "[REDACTED]"
+} 
+[05/28/20, 12:00:15:268] info: Store: REDUX_UPDATE_FROM_WEBAPP (THF90G329) Changed keys [unreads] 
+[05/28/20, 12:00:15:653] info: [DND] (THF90G329) Checking for changes in DND status for the following members: UPA3JNC0H,UHH1KRLPR,UHFPS6QQM,U01036WH0CQ,UV76CGDFV,UHDQE06NL,U010T7ACYV9,U010GKUTWG0 
+[05/28/20, 12:00:15:653] info: [DND] (THF90G329) Will check for changes in DND status again in 5 minutes 
+[05/28/20, 12:00:40:820] info: [RTM] (THF90G329) Processed presence_change event in 127.845 
+[05/28/20, 12:00:51:851] info: [RTM] (THF90G329) Processed presence_change event in 26.79 
+[05/28/20, 12:00:56:857] info: [RTM] (THF90G329) Processed presence_change event in 23.86 
+[05/28/20, 12:01:35:857] info: [RTM] (THF90G329) Processed presence_change event in 27.57 
+[05/28/20, 12:01:52:439] info: [DND] (T010W8XM2TW) Checking for changes in DND status for the following members: U010L2H5LTD,U010WNKEQ13,U010X2P8H4Y,U012DMAR2TD,U012S452W3T 
+[05/28/20, 12:01:52:440] info: [DND] (T010W8XM2TW) Will check for changes in DND status again in 5 minutes 
+[05/28/20, 12:02:56:482] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[05/28/20, 12:02:56:594] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[05/28/20, 12:03:26:506] info: Store: SET_SYSTEM_IDLE active 
+[05/28/20, 12:03:26:526] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[05/28/20, 12:04:36:563] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[05/28/20, 12:04:36:581] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[05/28/20, 12:05:15:654] info: [DND] (THF90G329) Checking for changes in DND status for the following members: UPA3JNC0H,UHH1KRLPR,UHFPS6QQM,U01036WH0CQ,UV76CGDFV,UHDQE06NL,U010T7ACYV9,U010GKUTWG0 
+[05/28/20, 12:05:15:655] info: [DND] (THF90G329) Will check for changes in DND status again in 5 minutes 
+[05/28/20, 12:05:16:594] info: Store: SET_SYSTEM_IDLE active 
+[05/28/20, 12:05:16:613] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[05/28/20, 12:05:22:386] info: [RTM] (T010W8XM2TW) Processed presence_change event in 44.61 
+[05/28/20, 12:05:57:783] info: [RTM] (THF90G329) Processed message event in 33.05 
+[05/28/20, 12:05:57:790] info: [COUNTS] (THF90G329) Updated unread_cnt for G012Y0A85HQ: 2 
+[05/28/20, 12:06:13:918] info: [CHECK-FOR-OLD-IMS] (THF90G329) Within limit: 9 
+[05/28/20, 12:06:52:440] info: [DND] (T010W8XM2TW) Checking for changes in DND status for the following members: U010L2H5LTD,U010WNKEQ13,U010X2P8H4Y,U012DMAR2TD,U012S452W3T 
+[05/28/20, 12:06:52:441] info: [DND] (T010W8XM2TW) Will check for changes in DND status again in 5 minutes 
+[05/28/20, 12:07:50:950] info: [CHECK-FOR-OLD-IMS] (T010W8XM2TW) Within limit: 6 
+[05/28/20, 12:08:31:193] info: [CHECK-FOR-OLD-IMS] (TFQ1AMH0C) Within limit: 3 
+[05/28/20, 12:09:22:517] info: [RTM] (THF90G329) Processed presence_change event in 27.865 
+[05/28/20, 12:09:26:409] info: [FOCUS-EVENT] Client window focused 
+[05/28/20, 12:09:26:609] info: [CHECK-UNREADS] (THF90G329) Checking unreads after window became focused 
+[05/28/20, 12:09:26:609] info: [CHECK-UNREADS] (THF90G329) Not marking D0146FKTPDE because last_read >= latest && channel is read 
+[05/28/20, 12:09:26:610] info: [FOCUS-EVENT] Client window blurred 
+[05/28/20, 12:09:26:629] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 12:09:26:639] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 12:09:26:648] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 12:09:27:500] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 12:09:27:526] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 12:09:27:636] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 1076,
+      "width": 1916,
+      "x": 2,
+      "y": 2
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[05/28/20, 12:09:27:645] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[05/28/20, 12:09:54:462] info: [RTM] (THF90G329) Processed presence_change event in 28.43 
+[05/28/20, 12:10:15:656] info: [DND] (THF90G329) Checking for changes in DND status for the following members: UPA3JNC0H,UHH1KRLPR,UHFPS6QQM,U01036WH0CQ,UV76CGDFV,UHDQE06NL,U010T7ACYV9,U010GKUTWG0 
+[05/28/20, 12:10:15:657] info: [DND] (THF90G329) Will check for changes in DND status again in 5 minutes 
+[05/28/20, 12:10:37:575] info: [RTM] (THF90G329) Processed presence_change event in 26.98 
+[05/28/20, 12:11:28:168] info: [API-Q] (THF90G329) noversion-1590648088.156 Flannel users/info called with reason: flannel-call:users/info 
+[05/28/20, 12:11:28:169] info: [API-Q] (THF90G329) noversion-1590648088.156 Flannel users/info is ENQUEUED 
+[05/28/20, 12:11:28:170] info: [API-Q] (THF90G329) noversion-1590648088.156 Flannel users/info is ACTIVE 
+[05/28/20, 12:11:28:459] info: [API-Q] (THF90G329) noversion-1590648088.156 Flannel users/info is RESOLVED 
+[05/28/20, 12:11:34:712] info: [RTM] (THF90G329) Processed presence_change event in 25.155 
+[05/28/20, 12:11:52:442] info: [DND] (T010W8XM2TW) Checking for changes in DND status for the following members: U010L2H5LTD,U010WNKEQ13,U010X2P8H4Y,U012DMAR2TD,U012S452W3T 
+[05/28/20, 12:11:52:443] info: [DND] (T010W8XM2TW) Will check for changes in DND status again in 5 minutes 
+[05/28/20, 12:12:01:909] info: [FOCUS-EVENT] Client window focused 
+[05/28/20, 12:12:01:992] info: [FOCUS-EVENT] Client window blurred 
+[05/28/20, 12:12:02:118] info: [CHECK-UNREADS] (THF90G329) Checking unreads after window became focused 
+[05/28/20, 12:12:02:119] info: [CHECK-UNREADS] (THF90G329) Not marking D0146FKTPDE because attention not on chat (window_not_focused) 
+[05/28/20, 12:12:02:133] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 12:12:02:144] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 12:12:02:953] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 12:12:02:979] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["windows"] 
+[05/28/20, 12:12:03:318] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 1048,
+      "width": 1888,
+      "x": 16,
+      "y": 16
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[05/28/20, 12:12:03:318] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[05/28/20, 12:12:09:743] info: [RTM] (THF90G329) Processed presence_change event in 35.275 

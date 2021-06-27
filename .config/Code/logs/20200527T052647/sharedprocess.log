@@ -1,0 +1,21 @@
+[2020-05-27 05:26:56.818] [sharedprocess] [info] main {"machineId":"1f4b3566ccfa18797abcc84be61fee0118a6509b708842277e67c268f84f09a1","windowId":2}
+[2020-05-27 05:26:56.858] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/mohit/.config/Code/User/snippets'
+[2020-05-27 05:27:07.531] [sharedprocess] [info] Installing extension: ms-python.python
+[2020-05-27 05:27:11.081] [sharedprocess] [info] Installing extension: ms-vscode.cpptools
+[2020-05-27 05:27:12.494] [sharedprocess] [info] Downloaded extension: ms-vscode.cpptools /tmp/2a1ef8cb-03c3-4e68-9139-0a018e4b1b86
+[2020-05-27 05:27:12.833] [sharedprocess] [info] Extracted extension to /home/mohit/.vscode/extensions/.ms-vscode.cpptools-0.28.1: ms-vscode.cpptools
+[2020-05-27 05:27:12.833] [sharedprocess] [info] Renamed to /home/mohit/.vscode/extensions/ms-vscode.cpptools-0.28.1
+[2020-05-27 05:27:12.839] [sharedprocess] [info] Installation completed. ms-vscode.cpptools
+[2020-05-27 05:27:12.882] [sharedprocess] [info] Extensions installed successfully: ms-vscode.cpptools
+[2020-05-27 05:27:28.866] [sharedprocess] [info] Installing extension: ms-vscode.go
+[2020-05-27 05:27:31.520] [sharedprocess] [info] Downloaded extension: ms-vscode.go /tmp/489f44e8-0c7b-42c8-b9e7-4addc1cdd32b
+[2020-05-27 05:27:34.447] [sharedprocess] [info] Downloaded extension: ms-python.python /tmp/869418da-c0b3-4f9e-af62-0f5c5f4660ec
+[2020-05-27 05:27:35.230] [sharedprocess] [info] Extracted extension to /home/mohit/.vscode/extensions/.ms-vscode.go-0.14.3: ms-vscode.go
+[2020-05-27 05:27:35.231] [sharedprocess] [info] Renamed to /home/mohit/.vscode/extensions/ms-vscode.go-0.14.3
+[2020-05-27 05:27:35.236] [sharedprocess] [info] Installation completed. ms-vscode.go
+[2020-05-27 05:27:35.395] [sharedprocess] [info] Extensions installed successfully: ms-vscode.go
+[2020-05-27 05:27:36.839] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-05-27 05:27:38.908] [sharedprocess] [info] Extracted extension to /home/mohit/.vscode/extensions/.ms-python.python-2020.5.80290: ms-python.python
+[2020-05-27 05:27:38.908] [sharedprocess] [info] Renamed to /home/mohit/.vscode/extensions/ms-python.python-2020.5.80290
+[2020-05-27 05:27:38.921] [sharedprocess] [info] Installation completed. ms-python.python
+[2020-05-27 05:27:39.156] [sharedprocess] [info] Extensions installed successfully: ms-python.python

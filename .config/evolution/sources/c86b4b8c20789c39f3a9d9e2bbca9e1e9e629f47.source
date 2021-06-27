@@ -1,0 +1,20 @@
+[Data Source]
+DisplayName=kulkarnimohit01@gmail.com
+Enabled=true
+Parent=ff8b498c5237afd19c4495d949912b323e35ee09
+
+[Authentication]
+Host=smtp-mail.outlook.com
+Method=XOAUTH2
+Port=587
+ProxyUid=system-proxy
+RememberPassword=true
+User=kulkarnimohit01@gmail.com
+CredentialName=
+IsExternal=false
+
+[Security]
+Method=starttls-on-standard-port
+
+[Mail Transport]
+BackendName=smtp
